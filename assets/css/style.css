@@ -104,18 +104,18 @@ body.sbar_color_one::-webkit-scrollbar-track {
 }
 
 body.sbar_color_one::-webkit-scrollbar-thumb {
-	background: #568701;
-	-webkit-box-shadow: inset 0 0 6px #568701;
-	-moz-box-shadow: inset 0 0 6px #568701;
-	box-shadow: inset 0 0 6px #568701;
+	background: #27dc84;
+	-webkit-box-shadow: inset 0 0 6px #27dc84;
+	-moz-box-shadow: inset 0 0 6px #27dc84;
+	box-shadow: inset 0 0 6px #27dc84;
 }
 
 body.sbar_color_one::-webkit-scrollbar-thumb:window-inactive {
-	background: #568701;
+	background: linear-gradient(90deg, #27dc84 49%, #4340a9 100%);;
 }
 
 .sbar_color_one .theme-btn {
-	background: #568701;
+	background: linear-gradient(90deg, #27dc84 49%, #4340a9 100%);;
 }
 
 
@@ -133,14 +133,14 @@ body.sbar_color_two::-webkit-scrollbar-track {
 }
 
 body.sbar_color_two::-webkit-scrollbar-thumb {
-	background: #13bfb3;
-	-webkit-box-shadow: inset 0 0 6px #13bfb3;
-	-moz-box-shadow: inset 0 0 6px #13bfb3;
-	box-shadow: inset 0 0 6px #13bfb3;
+	background: #27dc84;
+	-webkit-box-shadow: inset 0 0 6px #27dc84;
+	-moz-box-shadow: inset 0 0 6px #27dc84;
+	box-shadow: inset 0 0 6px #27dc84;
 }
 
 body.sbar_color_two::-webkit-scrollbar-thumb:window-inactive {
-	background: #13bfb3;
+	background: #27dc84;
 }
 
 
@@ -159,9 +159,9 @@ body.sbar_color_three::-webkit-scrollbar-track {
 
 body.sbar_color_three::-webkit-scrollbar-thumb {
 	background: #568701;
-	-webkit-box-shadow: inset 0 0 6px #568701;
-	-moz-box-shadow: inset 0 0 6px #568701;
-	box-shadow: inset 0 0 6px #568701;
+	-webkit-box-shadow: inset 0 0 6px #27dc84;
+	-moz-box-shadow: inset 0 0 6px #27dc84;
+	box-shadow: inset 0 0 6px #27dc84;
 }
 
 body.sbar_color_three::-webkit-scrollbar-thumb:window-inactive {
