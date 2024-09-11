@@ -32,6 +32,52 @@
 
 <!-- Include Owl Carousel JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<style>
+.department_inner .row {
+   display: flex;
+   flex-wrap: wrap; /* Allows wrapping to next line */
+}
+
+.department_icon_content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; /* Aligns content within the box */
+   text-align: center;
+   height: 100%; /* Ensures all content fills up to its parent's height */
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for styling */
+}
+
+.best-doctor-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 300px; /* Set a minimum height to ensure all boxes are the same size */
+  padding: 20px; /* Add padding for a balanced layout */
+  background-color: #f9f9f9; /* Optional: Add a background color for better visual distinction */
+  border: 1px solid #e0e0e0; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.best-doctor-outer .image {
+  max-width: 100%;
+  margin-bottom: 10px; /* Add some space between the image and content */
+}
+
+.best-doctor-outer .content-inner {
+  flex-grow: 1; /* Ensures the content takes up remaining space evenly */
+  text-align: center; /* Align the text in the center */
+}
+
+.three-item .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
 
 
    </head>
@@ -72,7 +118,7 @@
                               </ul>
                            </li>
                         <li class="nav-item ">
-                           <a class="nav-link link_hd" href="case-grid.htm">  Pages  </a>
+                           <a class="nav-link link_hd" href="contact.html">  Contact Us  </a>
                            <ul class="navbar-nav submenu">
                               <!-- <li class="nav-item"><a class="nav-link" href="case-grid.html">Case gird</a></li>
                               <li class="nav-item"><a class="nav-link" href="case-masonry.html">Case masonry</a></li>
@@ -88,7 +134,7 @@
                            </ul>
                         </li>
                         <li class="nav-item ">
-                              <a class="nav-link link_hd" href="blog-grid.htm">  Blog  </a>
+                        
                               <ul class="navbar-nav submenu">
                                  <!-- <li class="nav-item"><a class="nav-link" href="blog-grid.html">Blog grid</a></li>
                                  <li class="nav-item"><a class="nav-link" href="blog-with-sidebar.html">Blog with sidebar</a></li>
@@ -159,6 +205,8 @@
                                     </ul> -->
                                  </li> 
                      </ul>
+                     <a href="" type="button" class="btn button r" type="submit"  style="background-color: #4340a9; color: white;">Book An
+                        Appointment</a>
                   </div>
                </div>
             </div>
@@ -180,7 +228,7 @@
                    <div class="text">The bold mission of America’s MEDITEX Companies is to bring 
                    an end to the burdens of disease, in all its forms.</div>
                    <div class="link-box mt-5">
-                        <a href="#" class="theme-btn ">CONTACT US</a>
+                        <a href="#" class="theme-btn "  style="background: linear-gradient(90deg, #27dc84 29%, #5f5bd2 100%);">CONTACT US</a>
                       
                    </div>
                </div>
@@ -254,20 +302,20 @@
                                           <input type="email" name="email" placeholder="email*" required=""> 
                                        </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
                                        <div class="form-group">
                                           <input type="text" name="phone" placeholder="Phone*" required=""> 
                                        </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                        <div class="form-group">
-                                             <input id="datepicker"   class="form-control date" name="date" placeholder="Date" > 
+                                             <input id="datepicker"   class="form-control date mt-4" name="date" placeholder="Date" > 
  
                                           <span class="add-on"><i class="icon flaticon-calendar"></i></span>
                                        </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                       <button class=" theme-btn" type="submit" name="submit-form">BOOK YOUR APPOINTMENT NOW</button>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group mt-4">
+                                       <button class=" theme-btn" type="submit" name="submit-form" style="background: linear-gradient(90deg, #27dc84 29%, #5f5bd2 100%);" >BOOK YOUR APPOINTMENT NOW</button>
                                     </div>
                                  </div>
                               
@@ -291,84 +339,91 @@
                </div>
            </div>
        </div>
-       <div class="department_inner">
-           <div class="row">
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
+      <div class="department_inner">
+           <div class="row d-flex flex-wrap">
+               <div class="col-lg-4 d-flex">
+                   <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
                        <img src="assets/image/pedri.jpg" alt="Pediatric Care" class="img-fluid" />
                        <h2>Pediatric Care</h2>
                        <p>We offer comprehensive pediatric care services to ensure the wellbeing of children.</p>
-                       
-                   </div>
+                   </div> 
                </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
+               <div class="col-lg-4 d-flex">
+                   <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
                        <img src="assets/image/alergy.jpg" alt="Allergy" class="img-fluid" />
                        <h2>Allergy</h2>
                        <p>Our allergy treatments are designed to help cure the patients.</p>
-                     
                    </div>
                </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
+               <div class="col-lg-4 d-flex">
+                   <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
                        <img src="assets/image/infer.jpg" alt="Infertility" class="img-fluid" />
                        <h2>Infertility</h2>
                        <p>Our treatments are designed to cure the underlying causes of infertility & help to conceive.</p>
-                     
                    </div>
                </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
-                       <img src="assets/image/kidney.jpg" alt="Kidney Stones" class="img-fluid" />
-                       <h2>Kidney Stones</h2>
-                       <p>We offer effective treatment for kidney stones to reduce pain and prevent stones forming.</p>
-                 
-                   </div>
-               </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
-                       <img src="assets/image/psych.png" alt="Psychological Problems" class="img-fluid" />
-                       <h2>Psychological Problems</h2>
-                       <p>We offer counseling services to help individuals address their mental health concerns.</p>
-                      
-                   </div>
-               </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
-                       <img src="assets/image/piles.jpg" alt="Piles/Fistula" class="img-fluid" />
-                       <h2>Piles/Fistula</h2>
-                       <p>We provide effective treatment for hemorrhoids and fistula without surgery.</p>
-                   
-                   </div>
-               </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
-                       <img src="assets/image/learning.jpg" alt="Learning Disability" class="img-fluid" />
-                       <h2>Learning Disability</h2>
-                       <p>Our facility offers excellent care and support for individuals with learning disabilities.</p>
-                     
-                   </div>
-               </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
-                       <img src="assets/image/gynoclo.jpg" alt="Gynecological Issues" class="img-fluid" />
-                       <h2>Gynecological Issues</h2>
-                       <p>Our clinic specializes in diagnosing and treating gynecological issues and concerns.</p>
-                      
-                   </div>
-               </div>
-               <div class="col-lg-4">
-                   <div class="department_icon_content w-100">
-                       <img src="assets/image/life.jpg" alt="Lifestyle Diseases" class="img-fluid" />
-                       <h2>Lifestyle Diseases</h2>
-                       <p>We focus on preventing and managing lifestyle diseases with customized treatments & lifestyle modifications.</p>
-                       
-                   </div>
-               </div>
+               <!-- Repeat the same structure for other items -->
            </div>
        </div>
+       <div class="department_inner">
+         <div class="row d-flex flex-wrap">
+             <div class="col-lg-4 d-flex">
+                 <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
+                     <img src="assets/image/kidney.jpg" alt="Pediatric Care" class="img-fluid" />
+                     <h2>Kidney Stones</h2>
+                     <p>We offer effective treatment for kidney stones to reduce pain and prevent stones forming.</p>
+                 </div> 
+             </div>
+             <div class="col-lg-4 d-flex">
+                 <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
+                     <img src="assets/image/psych.png" alt="Allergy" class="img-fluid" />
+                     <h2>Psychological Problems
+                     </h2>
+                     <p>We offer counseling services to help individuals address their mental health concerns.</p>
+                 </div>
+             </div>
+             <div class="col-lg-4 d-flex">
+                 <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
+                     <img src="assets/image/piles.jpg" alt="Infertility" class="img-fluid" />
+                     <h2>Piles/Fistula
+                     </h2>
+                     <p>We provide effective treatment for hemorrhoids and fistula without surgery.</p>
+                 </div>
+             </div>
+             <!-- Repeat the same structure for other items -->
+         </div>
+     </div>
+     <div class="department_inner">
+      <div class="row d-flex flex-wrap">
+          <div class="col-lg-4 d-flex">
+              <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
+                  <img src="assets/image/learning.jpg" alt="Pediatric Care" class="img-fluid" />
+                  <h2>Learning Disability</h2>
+                  <p>Our facility offers excellent care and support for individuals with learning disabilities.</p>
+              </div> 
+          </div>
+          <div class="col-lg-4 d-flex">
+              <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
+                  <img src="assets/image/gyno.jpg" alt="Allergy" class="img-fluid" />
+                  <h2>Gynecological Issues
+                  </h2>
+                  <p>Our clinic specializes in diagnosing and treating gynecological issues and concerns.</p>
+              </div>
+          </div>
+          <div class="col-lg-4 d-flex">
+              <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
+                  <img src="assets/image/life.jpg" alt="Infertility" class="img-fluid" />
+                  <h2>Lifestyle Diseases
+                  </h2>
+                  <p>We focus on preventing and managing lifestyle diseases with customized treatments & lifestyle modifications.</p>
+              </div>
+          </div>
+          <!-- Repeat the same structure for other items -->
+      </div>
+  </div>
    </div>
 </section>
+
 
 <!-------department-section----->
 
@@ -393,10 +448,10 @@
                        infertility, counseling, allergies, asthma, migraine, sinusitis, bed wetting, gastritis, aphthae, constipation, eczema, skin diseases, newborn diseases, and more.
                    </p>
                    <ul>
-                       <li><img src="assets/image/awards-1.png" class="img-fluid" alt="awards" /></li>
-                       <li><img src="assets/image/awards-2.png" class="img-fluid" alt="awards" /></li>
-                       <li><img src="assets/image/awards-3.png" class="img-fluid" alt="awards" /></li>
-                       <li><img src="assets/image/awards-4.png" class="img-fluid" alt="awards" /></li>
+                       <li><img src="assets/image/cer1.png" class="img-fluid  " alt="awards" style="height: 130px;" /></li>
+                       <li><img src="assets/image/cer2.png" class="img-fluid" alt="awards"  style="height: 130px;"/></li>
+                       <!-- <li><img src="assets/image/awards-3.png" class="img-fluid" alt="awards" /></li>
+                       <li><img src="assets/image/awards-4.png" class="img-fluid" alt="awards" /></li> -->
                    </ul>
                    
                </div>
@@ -429,53 +484,45 @@
 
 <!-------appointment-section----->
 <section class="testimonial_sec hm-one">
-      <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div  class="heading clearfix">
-                     <h1>WHAT <span>CLIENTS SAY</span></h1>
-                  </div>
-               </div>
-            </div>
-            <div class="owl-carousel owl-theme two-item">
-
-               <div class="testimonial_content">
-                  <p>"My name is Anees. I'm an allergy patient. For many years, I spent a lot of money on treatment at various hospitals. That's when I heard about Thiruvegapura Health Care Homoeo Clinic and their Chief Consultant, Dr. Nadha. I heard that many patients had been completely cured by the treatment there.
-
-                     So, I went there for treatment. The doctor took the time to inquire in detail about my medical history and prescribed medicine. After a few months of continuous treatment, my illness was completely cured. Now, Dr. Nadha is our family doctor. I refer many of my friends to Health Care Homoeo Clinic."</p>
-                  <div class="client_details">
-                     <img src="assets/image/test-1.png" class="img-fluid" alt="test" />
-                     <div class="client_in">
-                        <h6>Anees</h6>
-                        <span>Patient</span>
-                     </div>
-                  </div>
-               </div>
-               <div class="testimonial_content">
-                     <p>"My name is Shibila Sherin. I live in Koppam. I used to have severe migraine problems. During my college days, I often had to skip classes due to these migraines. Even after joining a job, migraines continued to bother me. It was then that I heard about Health Care Homeo Clinic. One of my relatives introduced me to it. Dr. Nada had cured the migraine problems of two or three people in their family.
-
-                        I called their booking number and made an appointment. After a detailed inquiry about my medical history, the doctor prescribed me some medicine. Within a week, I started to feel a significant difference. After taking the medicine continuously for a few months, the disease completely disappeared. Now, it's like I never had migraines. I don't face any problems related to it now."</p>
-                     <div class="client_details">
-                        <img src="assets/image/test-2.png" class="img-fluid" alt="test" />
-                        <div class="client_in">
-                           <h6>Shibila Sherin</h6>
-                           <!-- <span>Patient's family</span> -->
-                        </div>
-                     </div>
-                  </div>
-
-            </div>
-            <div class="owl-carousel owl-theme client-carousel">
-
-             <div class="item"><img src="assets/image/client/client-hm-1.jpg" class="img-fluid" alt="img" /></div>
-             <div class="item"><img src="assets/image/client/client-hm-2.jpg" class="img-fluid" alt="img" /></div>
-             <div class="item"><img src="assets/image/client/client-hm-3.jpg" class="img-fluid" alt="img" /></div>
-             <div class="item"><img src="assets/image/client/client-hm-4.jpg" class="img-fluid" alt="img" /></div>
-             <div class="item"><img src="assets/image/client/client-hm-5.jpg" class="img-fluid" alt="img" /></div>
-
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="heading clearfix">
+          <h1>WHAT <span>CLIENTS SAY</span></h1>
+        </div>
       </div>
- </section>
+    </div>
+    <div class="owl-carousel owl-theme two-item">
+      <div class="testimonial_content">
+        <p>"My name is Anees. I'm an allergy patient. For many years, I spent a lot of money on treatment at various hospitals. That's when I heard about Thiruvegapura Health Care Homoeo Clinic and their Chief Consultant, Dr. Nadha. I heard that many patients had been completely cured by the treatment there. So, I went there for treatment. The doctor took the time to inquire in detail about my medical history and prescribed medicine. After a few months of continuous treatment, my illness was completely cured. Now, Dr. Nadha is our family doctor. I refer many of my friends to Health Care Homoeo Clinic."</p>
+        <div class="client_details">
+          <img src="assets/image/test-1.png" class="img-fluid" alt="test" />
+          <div class="client_in">
+            <h6>Anees</h6>
+            <span>Patient</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial_content">
+        <p>"My name is Shibila Sherin. I live in Koppam. I used to have severe migraine problems. During my college days, I often had to skip classes due to these migraines. Even after joining a job, migraines continued to bother me. It was then that I heard about Health Care Homeo Clinic. One of my relatives introduced me to it. Dr. Nada had cured the migraine problems of two or three people in their family. I called their booking number and made an appointment. After a detailed inquiry about my medical history, the doctor prescribed me some medicine. Within a week, I started to feel a significant difference. After taking the medicine continuously for a few months, the disease completely disappeared. Now, it's like I never had migraines. I don't face any problems related to it now."</p>
+        <div class="client_details">
+          <img src="assets/image/test-2.png" class="img-fluid" alt="test" />
+          <div class="client_in">
+            <h6>Shibila Sherin</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="owl-carousel owl-theme client-carousel">
+      <div class="item"><img src="assets/image/client/client-hm-1.jpg" class="img-fluid" alt="img" /></div>
+      <div class="item"><img src="assets/image/client/client-hm-2.jpg" class="img-fluid" alt="img" /></div>
+      <div class="item"><img src="assets/image/client/client-hm-3.jpg" class="img-fluid" alt="img" /></div>
+      <div class="item"><img src="assets/image/client/client-hm-4.jpg" class="img-fluid" alt="img" /></div>
+      <div class="item"><img src="assets/image/client/client-hm-5.jpg" class="img-fluid" alt="img" /></div>
+    </div>
+  </div>
+</section>
+
 
 <!--------best-doctors-------->
 <section class="best-doctors  hme-one">
@@ -493,13 +540,13 @@
 
                <div class="best-doctor-outer">
                   <div class="image">
-                     <img src="assets/image/dr1.jpeg" class="img-fluid" alt="best-doctors"/>
+                     <img src="assets/image/dr1.png" class="img-fluid" alt="best-doctors"/>
                  <a href="#" class="link"></a>
                   </div>
                   <div class="content-inner">
-                     <h2> <a href="#">Dr. Nadha Haris
+                     <h2> <a href="#">Dr. Nadha Haris <br>
                         BHMS
-                        Reg: 10820
+                       <br>
                         Chief physician </a> </h2>
                      
                      <!-- <p>Dr. Will Marvin is an internist in Rochester, MN, and has been in practice between 5–10 years.</p>
@@ -519,8 +566,8 @@
                         <a href="#" class="link"></a>
                      </div>
                      <div class="content-inner">
-                        <h2><a href="#"> Dr.RIZWAN ABDUL RASHEED TT
-                           TCMC Reg No. 12206</a></h2>
+                        <h2><a href="#"> Dr.RIZWAN ABDUL RASHEED TT <br>
+                           BHMS, TCMC </a></h2>
                         <!-- <span>Anesthesiology</span>
                         <p>Dr. Bethany Kertzmann is an anesthesiologist in Rochester, MN, and has been in practice between 3–5 years.</p>
                         <ul>
@@ -539,8 +586,8 @@
                            <a href="#" class="link"></a>
                         </div>
                         <div class="content-inner">
-                           <h2><a href="#"> Dr. JUSNA NASEEM 
-                              BHMS ,MSc(Psychology)  </a></h2>
+                           <h2><a href="#"> Dr. JUSNA NASEEM <br>
+                              BHMS ,MSc(Psychology)  PG Diploma in Counselling  </a></h2>
                            <!-- <span>Cardiology</span>
                            <p>Dr. Danielle Bechtelar is a cardiologist in Rochester, MN, and has been in practice between 5–10 years</p>
                            <ul>
@@ -776,14 +823,10 @@
                      <h2>DEPARTMENTS</h2>
                      <div class="footer-text">
                         <ul>
-                           <li><a href="#"> Psychiatry</a></li>
-                           <li><a href="#">Ophthalmology</a></li>
-                           <li><a href="#">Cardiology </a></li>
-                           <li><a href="#">Immunology </a></li>
-                           <li><a href="#">Hematology </a></li>
-                           <li><a href="#">Gastroenterology </a></li>
-                           <li><a href="#">Orthopedics </a></li>
-                           <li><a href="#">Pulmonary</a></li>
+                           <li><a href="#"> General</a></li>
+                           <li><a href="#">Infertility</a></li>
+                           <li><a href="#">Councillig </a></li>
+                           
                         </ul>
                      
                      </div>
@@ -794,14 +837,11 @@
                      <h2>LINKS</h2>
                      <div class="footer-text">
                         <ul>
+                           <li><a href="#"> Home</a></li>
                            <li><a href="#"> About Us</a></li>
-                           <li><a href="#">Appointment</a></li>
+                          
                            <li><a href="#">Contact Us </a></li>
-                           <li><a href="#">Blog </a></li>
-                           <li><a href="#">Doctors</a></li>
-                           <li><a href="#">Gallery </a></li>
-                           <li><a href="#">Timetable </a></li>
-                           <li><a href="#">FAQs</a></li>
+                         
                         </ul>
                         
                      
@@ -817,7 +857,7 @@
                            <form>
                               <div class="form-group">
                                     <input type="email"  id="email" placeholder="Enter Your Email*" ><br/>
-                                    <button class="theme-btn" type="submit">SUBSCRIBE</button>
+                                    <button class="theme-btn" type="submit"  style="background: linear-gradient(90deg, #27dc84 29%, #5f5bd2 100%);">SUBSCRIBE</button>
                               </div>
                            </form>
                         </div>
