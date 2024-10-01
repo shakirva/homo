@@ -1758,11 +1758,11 @@ textarea:focus {
 }
 
 .best-doctor-outer .content-inner ul li:hover a {
-	color: #568701;
+	color: #dbd0be;
 }
 
 .best-doctor-outer:hover h2 a {
-	color: #568701;
+	color: #dbd0be;
 }
 
 .best-doctor-outer:hover {
@@ -1809,9 +1809,9 @@ textarea:focus {
 
 .best-doctors .owl-carousel .owl-nav .owl-prev span:hover,
 .best-doctors .owl-carousel .owl-nav .owl-next span:hover {
-	background: #3e964e;
-	background-image: -webkit-gradient(linear, left top, right top, from(#48b53c), to(#3e964e));
-	background-image: linear-gradient(to right, #48b53c, #44a843, #419e49, #3f984d, #3e964e);
+	background: #dbd0be;
+	background-image: -webkit-gradient(linear, left top, right top, from(#dbd0be), to(#dbd0be));
+	background-image: linear-gradient(to right, #dbd0be, #dbd0be, #dbd0be, #dbd0be, #dbd0be);
 }
 
 
@@ -2921,8 +2921,8 @@ textarea:focus {
 }
 
 .contact_social_media ul li:hover a {
-	background-image: -webkit-gradient(linear, left top, right top, from(#48b53c), to(#3e964e));
-	background-image: linear-gradient(to right, #48b53c, #44a843, #3e964e);
+	background-image: -webkit-gradient(linear, left top, right top, from(#c5ae8f), to(#c5ae8f));
+	background-image: linear-gradient(to right, #c5ae8f, #c5ae8f, #c5ae8f);
 	color: #fff;
 	transform: rotate(360deg);
 }
@@ -3014,7 +3014,7 @@ textarea {
 	font-size: 38px;
 	line-height: 48px;
 	float: left;
-	color: #568701;
+	color: #cfa874;
 	font-weight: 500;
 }
 
@@ -3048,7 +3048,7 @@ textarea {
 	box-shadow: 0px 53px 29px -46px rgba(0, 0, 0, .1);
 	-webkit-box-shadow: 0px 53px 29px -46px rgba(0, 0, 0, .1);
 	-moz-box-shadow: 0px 53px 29px -46px rgba(0, 0, 0, .1);
-	border-top: 3px solid #568701;
+	border-top: 3px solid #c5ae8f;
 }
 
 .appont_sec_inner {
@@ -3185,7 +3185,7 @@ textarea {
 }
 
 .department_section .heading h1 span {
-	color: #568701;
+	color: #806753;
 	font-weight: 800;
 }
 
@@ -3218,7 +3218,7 @@ textarea {
 .department_inner .department_icon_content span {
 	font-size: 60px;
 	line-height: 60px;
-	color: #568701;
+	color: #806753;
 	padding-bottom: 25px;
 	display: inline-block;
 }
@@ -3226,7 +3226,7 @@ textarea {
 .department_inner .department_icon_content h2 {
 	font-size: 22px;
 	line-height: 30px;
-	color: #2b2b2b;
+	color: #806753;
 	font-weight: 700;
 	padding-bottom: 5px;
 }
@@ -3243,7 +3243,7 @@ textarea {
 }
 
 .department_inner .department_icon_content:hover h2 {
-	color: #568701;
+	color: #806753;
 }
 
 
@@ -3267,7 +3267,7 @@ textarea {
 }
 
 .welcome_section .heading h1 span {
-	color: #568701;
+	color: #806753;
 	font-weight: 800;
 }
 
@@ -3302,7 +3302,7 @@ textarea {
 .doc_community {
 	position: relative;
 	padding: 70px 0px;
-	background: #568701;
+	background: #806753;
 }
 
 .doc_community h1 {
@@ -3383,7 +3383,7 @@ textarea {
 	border-right: 1px solid #eaeaea;
 	border-left: 1px solid #eaeaea;
 	border-bottom: 1px solid #eaeaea;
-	border-top: 3px solid #568701;
+	border-top: 3px solid #dbd0be;
 	border-radius: 3px;
 	padding: 40px 35px;
 }
@@ -3462,9 +3462,9 @@ textarea {
 
 .testimonial_sec.hm-one .owl-carousel .owl-nav .owl-prev span:hover,
 .testimonial_sec.hm-one .owl-carousel .owl-nav .owl-next span:hover {
-	background: #3e964e;
-	background-image: -webkit-gradient(linear, left top, right top, from(#48b53c), to(#3e964e));
-	background-image: linear-gradient(to right, #48b53c, #44a843, #419e49, #3f984d, #3e964e);
+	background: #dbd0be;
+	background-image: -webkit-gradient(linear, left top, right top, from(#dbd0be), to(#dbd0be));
+	background-image: linear-gradient(to right, #dbd0be, #dbd0be, #dbd0be, #dbd0be, #dbd0be);
 }
 
 .testimonial_sec.hm-one .owl-carousel.client-carousel .owl-nav {
@@ -3582,7 +3582,7 @@ textarea {
 #header-two .navbar-nav .nav-item:active>.nav-link,
 #header-two .navbar-nav .nav-item:focus>.nav-link,
 #header-two .navbar-nav .nav-item:hover>.nav-link {
-	color: #13bfb3;
+	color: #c5ae8f;
 }
 
 .sbar_color_two .bsnav-mobile.in .navbar-nav .nav-item.activee>.nav-link,
@@ -5203,7 +5203,7 @@ textarea {
 }
 
 #header-five .mid_bar {
-	border-bottom: 1px solid #476ba3;
+	border-bottom: 1px solid #806753;
 	padding: 25px 0px 17px;
 }
 
@@ -5214,7 +5214,7 @@ textarea {
 }
 
 #header-five .mid_bar .mid_contact_text span {
-	color: #d2d2d2;
+	color: #806753;
 }
 
 #header-five .mid-mid .mid_contact_text {
@@ -5245,7 +5245,7 @@ textarea {
 }
 
 #header-five .sticked.in .nav-link.link_hd {
-	color: #2b2b2b;
+	color: #806753;
 }
 
 #header-five .navbar-expand-lg .navbar-nav .nav-item .nav-link.link_hd {
@@ -5255,7 +5255,7 @@ textarea {
 }
 
 #header-five .sticked.in .navbar-nav.right-nav .nav-link {
-	color: #2b2b2b;
+	color: #806753;
 }
 
 #header-five .navbar-expand-lg .navbar-nav.right-nav .nav-link {
@@ -5269,11 +5269,11 @@ textarea {
 }
 
 #header-five .navbar-nav.submenu .nav-item:hover>.nav-link {
-	color: #003182;
+	color: #806753;
 }
 
 #header-five .nav-item.dropdown>.navbar-nav {
-	border-top: 3px solid #003182;
+	border-top: 3px solid #806753;
 }
 
 #header-five .navbar-nav .nav-item.active>.nav-link::before {
@@ -5292,7 +5292,7 @@ textarea {
 .sbar_color_five .navbar.bsnav-sticky.bsnav-sticky-slide.in .navbar-nav .nav-item:active>.nav-link,
 .sbar_color_five .navbar.bsnav-sticky.bsnav-sticky-slide.in .navbar-nav .nav-item:focus>.nav-link, 
 .sbar_color_five .navbar.bsnav-sticky.bsnav-sticky-slide.in .navbar-nav .nav-item:hover>.nav-link {
-	color: #003182!important;
+	color: #806753!important;
 }
 
 .sbar_color_five .bsnav-mobile.in .navbar-nav .nav-item.activee>.nav-link,
@@ -5300,10 +5300,10 @@ textarea {
 .sbar_color_five .bsnav-mobile.in .navbar-nav .nav-item:active>.nav-link,
 .sbar_color_five .bsnav-mobile.in .navbar-nav .nav-item:focus>.nav-link, 
 .sbar_color_five .bsnav-mobile.in .navbar-nav .nav-item:hover>.nav-link {
-	color: #003182!important;
+	color: #806753!important;
 } 
 
-.sbar_color_five .fa.fa-close{ color: #003182;}
+.sbar_color_five .fa.fa-close{ color: #806753;}
 
 
 #header-five .navbar-nav .nav-item>.nav-link::before {
@@ -5318,7 +5318,7 @@ textarea {
 }
 
 #header-five .right-nav .form-group .theme-btn {
-	background: #003182;
+	background: #806753;
 }
 
 #header-five .right-nav .nav-item>.nav-link::before {
@@ -5366,21 +5366,21 @@ textarea {
 
 .main-slider .main-slider-five .theme-btn.btn-dark {
 	background: #fff;
-	color: #0a56be;
+	color: #806753;
 	margin-left: 20px;
 }
 
 .main-slider .main-slider-five .theme-btn {
-	background: #0a56be;
+	background: #806753;
 	color: #fff;
 }
 
 .sbar_color_five .footer.hme-five .theme-btn {
-	background: #105abf;
+	background: #806753;
 }
 
 .sbar_color_five .footer-widget.first ul li:hover a {
-	background: #105abf;
+	background: #806753;
 }
 
 

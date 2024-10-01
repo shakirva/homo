@@ -11,6 +11,8 @@
       <meta property="og:description"    content="Drnadhashomoeo">
       <meta name="full-screen" content="yes">
       <meta name="theme-color" content="#568701">
+     
+
       <!-- Responsive -->
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -26,6 +28,9 @@
       <!-- Include Owl Carousel CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
 
 <!-- Include jQuery (required by Owl Carousel) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -127,12 +132,19 @@
 <div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide">
   <div class="container">
     <!-- Brand Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <!-- Logo Image -->
-      <img src="assets/image/logo-new.jpeg" class="img-fluid" style="max-width: 150px; height: 80px;;" alt="Company Logo">
-      <!-- Company Name -->
-      <span class="company-name ml-2 " style="color:#3384a9; font-size: large;">Dr Nadha's Health care homoeopathic clinic</span>
-    </a>
+    <!-- Laptop view (visible on large screens) -->
+<!-- Laptop view (visible on large screens) -->
+<a class="navbar-brand d-flex align-items-center " href="index.html">
+   <!-- Logo Image -->
+   <img src="assets/image/logo-new.png" class="img-fluid" style="max-width: 150px; height: 80px;" alt="Company Logo">
+   <!-- Company Name -->
+   <span class="company-name ml-2" style="color:#665b48;">Dr Nadha's Health care <br> homoeopathic clinic</span>
+ </a>
+ 
+ 
+ <!-- Mobile view (visible on small screens) -->
+
+ 
     
     <!-- Toggler for Mobile View -->
     <button class="navbar-toggler toggler-spring" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -154,7 +166,7 @@
       </ul>
       
       <!-- Button -->
-      <a href="#appointmentForm" type="button" class="btn button r" style="background-color: #806753; color: white;">Book An Appointment</a>
+      <a href="#appointmentForm" type="button" class="btn button r" style="background-color: #c5ae8f; color: white;">Book An Appointment</a>
 
     </div>
   </div>
@@ -221,7 +233,7 @@
                 <!-- Booking Appointment Form Section -->
                 <div  id="appointmentForm" class="col-lg-6 col-md-12 col-sm-12">
                     <div class="appont_sec_inner">
-                        <h6 class="text-center text-white " style="background: linear-gradient(90deg, #806753 29%, #918c8c 100%);" > BOOK AN APPOINTMENT</h6>
+                        <h6 class="text-center text-white m  " style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);" > BOOK AN APPOINTMENT</h6>
                         <form onsubmit="sendWhatsAppMessage(event)" class="needs-validation" novalidate>
                            <div class="row">
                                <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
@@ -249,7 +261,7 @@
                                    </div>
                                </div>
                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                   <button class="btn theme-btn w-100" type="submit" name="submit-form" style="background: linear-gradient(90deg, #806753 29%, #918c8c 100%);">
+                                   <button class="btn theme-btn w-100" type="submit" name="submit-form" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">
                                        BOOK YOUR APPOINTMENT NOW
                                    </button>
                                </div>
@@ -282,7 +294,7 @@
          </div>
          
          <div class="link-box mt-5">
-           <a href="contact.html" class="theme-btn" style="background: linear-gradient(90deg, #806753 29%, #918c8c 100%);">Call Doctor</a>
+           <a href="contact.html" class="theme-btn" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">Call Doctor</a>
          </div>
        </div>
      </div>
@@ -301,7 +313,7 @@
        <div class="row">
          <div class="col-lg-12 d-flex justify-content-center text-center">
             <div class="heading clearfix">
-                <h1 >Excellent <span style="color: #806753;">Medical Services</span></h1>
+                <h1 >Excellent <span style="color: #c5ae8f;">Medical Services</span></h1>
             </div>
         </div>
        </div>
@@ -313,7 +325,7 @@
                        <img src="assets/image/pedri.jpg" alt="Pediatric Care" class="img-fluid" />
                        <h2>Pediatric Care</h2>
                        <p>We offer comprehensive pediatric care services to ensure the wellbeing of children.</p>
-                       <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                       <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                    </div> 
                </div>
 
@@ -322,7 +334,7 @@
                        <img src="assets/image/alergy.jpg" alt="Allergy" class="img-fluid" />
                        <h2>Allergy</h2>
                        <p>Our allergy treatments are designed to help cure the patients.</p>
-                       <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                       <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                      </div>
                </div>
 
@@ -331,7 +343,7 @@
                        <img src="assets/image/infer.jpg" alt="Infertility" class="img-fluid" />
                        <h2>Infertility</h2>
                        <p>Our treatments are designed to cure the underlying causes of infertility & help to conceive.</p>
-                       <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                       <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                      </div>
                </div>
            </div>
@@ -345,7 +357,7 @@
                      <img src="assets/image/kidney.jpg" alt="Kidney Stones" class="img-fluid" />
                      <h2>Kidney Stones</h2>
                      <p>We offer effective treatment for kidney stones to reduce pain and prevent stones forming.</p>
-                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                   </div> 
              </div>
 
@@ -354,7 +366,7 @@
                      <img src="assets/image/psych.png" alt="Psychological Problems" class="img-fluid" />
                      <h2>Psychological Problems</h2>
                      <p>We offer counseling services to help individuals address their mental health concerns.</p>
-                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                   </div>
              </div>
 
@@ -363,7 +375,7 @@
                      <img src="assets/image/piles.jpg" alt="Piles/Fistula" class="img-fluid" />
                      <h2>Piles/Fistula</h2>
                      <p>We provide effective treatment for hemorrhoids and fistula without surgery.</p>
-                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                   </div>
              </div>
          </div>
@@ -377,7 +389,7 @@
                   <img src="assets/image/learning.jpg" alt="Learning Disability" class="img-fluid" />
                   <h2>Learning Disability</h2>
                   <p>Our facility offers excellent care and support for individuals with learning disabilities.</p>
-                  <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                  <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                </div> 
           </div>
 
@@ -386,7 +398,7 @@
                   <img src="assets/image/gyno.jpg" alt="Gynecological Issues" class="img-fluid" />
                   <h2>Gynecological Issues</h2>
                   <p>Our clinic specializes in diagnosing and treating gynecological issues and concerns.</p>
-                  <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                  <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                </div>
           </div>
 
@@ -395,7 +407,7 @@
                   <img src="assets/image/life.jpg" alt="Lifestyle Diseases" class="img-fluid" />
                   <h2>Lifestyle Diseases</h2>
                   <p>We focus on preventing and managing lifestyle diseases with customized treatments & lifestyle modifications.</p>
-                  <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #806753;" >Book Now</a>
+                  <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
                </div>
           </div>
       </div>
@@ -409,7 +421,7 @@
 
 
 <!---------welcomen-sec--------->
-<section class="welcome_section hme-one" style="background: linear-gradient(90deg, #806753 29%, #918c8c 100%);">
+<section class="welcome_section hme-one" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">
    <div class="container">
        <div class="row">
            <div class="col-lg-12">
@@ -461,12 +473,12 @@
    </div>
 </section> -->
 <div class="container mt-5 text-center">
-   <h2>OUR <span style="color: #806753;"> HIGHLIGHTS</span> </h2>
+   <h2>OUR <span style="color: #c5ae8f;"> HIGHLIGHTS</span> </h2>
    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
        <div class="col-md-4 p-5">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
-                    style="width: 100px; height: 100px; background-color: #a0cacd;">
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
                    <img src="assets/image/icons-01.png" alt="Logo 1" style="max-width: 60%; max-height: 60%;">
                </div>
                <h5 class="mb-0">Patient-Centered Care</h5>
@@ -475,7 +487,7 @@
        <div class="col-md-4 p-5">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
-                    style="width: 100px; height: 100px; background-color: #a0cacd;">
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
                    <img src="assets/image/icons-02.png" alt="Logo 2" style="max-width: 60%; max-height: 60%;">
                </div>
                <h5 class="mb-0">Integrity</h5>
@@ -484,7 +496,7 @@
        <div class="col-md-4 p-5">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
-                    style="width: 100px; height: 100px; background-color: #a0cacd;">
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
                    <img src="assets/image/03.png" alt="Logo 3" style="max-width: 60%; max-height: 60%;">
                </div>
                <h5 class="mb-0">Excellence & Teamwork</h5>
@@ -493,7 +505,7 @@
        <div class="col-md-4 p-5">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
-                    style="width: 100px; height: 100px; background-color: #a0cacd;">
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
                    <img src="assets/image/04.png" alt="Logo 4" style="max-width: 60%; max-height: 60%;">
                </div>
                <h5 class="mb-0">Innovation</h5>
@@ -502,7 +514,7 @@
        <div class="col-md-4 p-5">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
-                    style="width: 100px; height: 100px; background-color: #a0cacd;">
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
                    <img src="assets/image/05.png" alt="Logo 5" style="max-width: 60%; max-height: 60%;">
                </div>
                <h5 class="mb-0">Mutual Trust</h5>
@@ -511,7 +523,7 @@
        <div class="col-md-4 p-5">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
-                    style="width: 100px; height: 100px; background-color: #a0cacd;">
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
                    <img src="assets/image/06.png" alt="Logo 6" style="max-width: 60%; max-height: 60%;">
                </div>
                <h5 class="mb-0">Ethical Practices</h5>
@@ -530,7 +542,7 @@
       <div class="row">
          <div class="col-lg-12">
             <div class="heading">
-               <h1>BEST DOCTORS<span> FOR YOU</span></h1>
+               <h1>BEST DOCTORS<span style="color: #c5ae8f;"> FOR YOU</span></h1>
             </div>
          </div>
       </div>
@@ -653,148 +665,14 @@
   </div>
 </div> 
 
-<!--------best-doctors-------->
-
    
-<!--------best-doctors-------->
 
-
-
-
-   <!---Accordion--->
-<!--    
-   <div class="recent-tags hme-one" id="faqs" >
-         <div class="container">
-            <section>
-               <div class="row">
-                  <div class="col-lg-6">
-                     <div class="row">
-                        <div class="col-lg-12">
-                           <div class="heading">
-                              <h1>POPULAR<span> ARTICLES</span></h1>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="articles-outer">
-                        <div class="articles-inner">
-                           <a href="#"><img src="assets/image/articles/articles-3-3.jpg" class="img-fluid" alt="articles"></a>
-                           <div class="articles-content">
-                              <p>Business  .  <a href="#"> July 10, 2018</a></p>
-                              <h2><a href="#">Thousands of Patients Referred to Substance Use Treatment</a></h2>
-                           </div>
-                        </div>
-                        <div class="articles-inner">
-                           <a href="#"><img src="assets/image/articles/articles-3-2.jpg" class="img-fluid" alt="articles"></a>
-                           <div class="articles-content">
-                              <p>Lifestyle  .  <a href="#">  April 04, 2018</a></p>
-                              <h2><a href="#">MedStar Health Bel Air Cancer Services Aligns Expertise</a></h2>
-                           </div>
-                        </div>
-                        <div class="articles-inner">
-                           <a href="#"> <img src="assets/image/articles/articles-3-1.jpg" class="img-fluid" alt="articles"></a>
-                           <div class="articles-content">
-                              <p>Experience  .   <a href="#"> February 20, 2018 </a></p>
-                              <h2><a href="#">Dr. Gabriel Del Corral Joins MedStar Plastic & Reconstructive Surgery</a></h2>
-                           </div>
-                        </div>
-
-                     </div>
-                  </div>
-                  <div class="col-lg-6 ">
-                     <div class="row">
-                        <div class="col-lg-12">
-                           <div class="heading">
-                              <h1>MEDICAL <span>FAQs</span></h1>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="accordion" id="faq-accordion">
-                        <div class="card">
-                           <div class="card-header" id="headingOne">
-                              <h5 class="mb-0">
-                           <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              What causes tooth decay? <i class="flaticon-plus main n-active"></i> <i class="flaticon-minus main active-min"></i>
-                           </button>
-                           </h5>
-                           </div>
-      
-                           <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#faq-accordion">
-                              <div class="card-body">
-                                 Decay is caused by bacteria that collect on teeth and feed on the carbohydrates in our diet. The bacteria produce acid that wears away at the enamel on our teeth. If decay is left untreated, it can cause pain, infection and even tooth loss. Protect your teeth against decay by brushing at least twice a day, flossing daily, visiting your dentist regularly.
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card">
-                           <div class="card-header" id="headingTwo">
-                              <h5 class="mb-0">
-                           <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              What is dry mouth and what can I do about it? <i class="flaticon-plus main n-active "></i> <i class="flaticon-minus main active-min"></i>
-                           </button>
-                           </h5>
-                           </div>
-                           <div id="collapseTwo" class="collapse fade" aria-labelledby="headingTwo" data-parent="#faq-accordion">
-                              <div class="card-body">
-                                 Decay is caused by bacteria that collect on teeth and feed on the carbohydrates in our diet. The bacteria produce acid that wears away at the enamel on our teeth. If decay is left untreated, it can cause pain, infection and even tooth loss. Protect your teeth against decay by brushing at least twice a day, flossing daily, visiting your dentist regularly.
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card">
-                           <div class="card-header" id="headingThree">
-                              <h5 class="mb-0">
-                           <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              How often should I change my toothbrush? <i class="flaticon-plus main n-active"></i> <i class="flaticon-minus main active-min"></i>
-                           </button>
-                           </h5>
-                           </div>
-                           <div id="collapseThree" class="collapse fade" aria-labelledby="headingThree" data-parent="#faq-accordion">
-                              <div class="card-body">
-                                 Decay is caused by bacteria that collect on teeth and feed on the carbohydrates in our diet. The bacteria produce acid that wears away at the enamel on our teeth. If decay is left untreated, it can cause pain, infection and even tooth loss. Protect your teeth against decay by brushing at least twice a day, flossing daily, visiting your dentist regularly.
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card">
-                           <div class="card-header" id="headingFour">
-                              <h5 class="mb-0">
-                           <button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              How often should I see a dentist? <i class="flaticon-plus main n-active"></i> <i class="flaticon-minus main active-min"></i>
-                           </button>
-                           </h5>
-                           </div>
-                           <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour" data-parent="#faq-accordion">
-                              <div class="card-body">
-                                 Decay is caused by bacteria that collect on teeth and feed on the carbohydrates in our diet. The bacteria produce acid that wears away at the enamel on our teeth. If decay is left untreated, it can cause pain, infection and even tooth loss. Protect your teeth against decay by brushing at least twice a day, flossing daily, visiting your dentist regularly.
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>	
-               </div>
-            </section>
-         </div>
-      </div>
-      <! .// Accordion -->
 
 
        <!--Map Section-->
        <section class="map-section">
          <div class="container-fluid">
-            <!--Map Outer-->
-            <!-- <div class="map-outer">
-               <div class="google-map"
-                  id="contact-google-map" 
-                  data-map-lat="44.231172" 
-                  data-map-lng="-76.485954" 
-                  data-icon-path="assets/image/icons/map-marker.png" 
-                  data-map-title="Alabama, USA" 
-                  data-map-zoom="12" 
-                  data-markers='{
-                  "marker-1": [42.231172, -84.485954, "<h4>Branch Office</h4><p>4/99 Alabama, USA</p>"],
-                  "marker-2": [44.231172, -76.485954, "<h4>Branch Office</h4><p>4/99 Alabama, USA</p>"],
-                  "marker-3": [40.880550, -78.393705, "<h4>Branch Office</h4><p>4/99 Pennsylvania, USA</p>"]
-                  }'>
-               </div>
-            </div>
-         </div> -->
+           
        
       </section> 
       <!--End Map Section-->
@@ -804,7 +682,7 @@
            <div class="row">
              <div class="col-lg-12">
                <div class="heading clearfix text-center">
-                 <h1>WHAT <span>CLIENTS SAY</span></h1>
+                 <h1 >WHAT <span style="color:#c5ae8f">CLIENTS SAY</span></h1>
                </div>
              </div>
            </div>
@@ -936,60 +814,8 @@
       </div>
    </div>
    <!-------contact-through----->
-   <section class="best-doctors hme-one">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="heading">
-                  <h1>BEST DOCTORS<span> FOR YOU</span></h1>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="owl-carousel owl-theme three-item">
    
-                  <div class="best-doctor-outer">
-                     <div class="image">
-                        <img src="assets/image/dr1.png" class="img-fluid" alt="best-doctors"/>
-                        <a href="#" class="link"></a>
-                     </div>
-                     <div class="content-inner">
-                        <h2> <a href="#">Dr. Nadha Haris <br>
-                           BHMS<br> Chief physician </a> 
-                        </h2>
-                     </div>
-                  </div>
-   
-                  <div class="best-doctor-outer">
-                     <div class="image">
-                        <img src="assets/image/dr2.jpeg" class="img-fluid" alt="best-doctors"/>
-                        <a href="#" class="link"></a>
-                     </div>
-                     <div class="content-inner">
-                        <h2><a href="#"> Dr. RIZWAN ABDUL RASHEED TT <br>BHMS, TCMC </a></h2>
-                     </div>
-                  </div>
-   
-                  <div class="best-doctor-outer">
-                     <div class="image">
-                        <img src="assets/image/dr3.png" class="img-fluid" alt="best-doctors"/>
-                        <a href="#" class="link"></a>
-                     </div>
-                     <div class="content-inner">
-                        <h2><a href="#"> Dr. JUSNA NASEEM <br>BHMS, MSc (Psychology), PG Diploma in Counselling </a></h2>
-                     </div>
-                  </div>
-   
-               </div>
-               <div class="view-more-doctors">
-                  <!-- <a href="#" class="view-doctors">SEE ALL DOCTORS</a> -->
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   
+   <a href="#" class="link"></a>
 
 <!--------footer-------->
    <div class="footer home-one">
@@ -1051,7 +877,7 @@
                            <form>
                               <div class="form-group">
                                     <input type="email"  id="email" placeholder="Enter Your Email*" ><br/>
-                                    <button class="theme-btn" type="submit"  style="background: linear-gradient(90deg, #27dc84 29%, #5f5bd2 100%);">SUBSCRIBE</button>
+                                    <button class="theme-btn" type="submit"  style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);" >SUBSCRIBE</button>
                               </div>
                            </form>
                         </div>
