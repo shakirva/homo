@@ -10,7 +10,7 @@
       <meta property="og:image" content="http://steelthemes.com/demo/Elango/meditex-final/assets/image/fbimg-210x210.jpg">
       <meta property="og:description"    content="Drnadhashomoeo">
       <meta name="full-screen" content="yes">
-      <meta name="theme-color" content="#568701">
+      <meta name="theme-color" content="#c5ae8f">
      
 
       <!-- Responsive -->
@@ -30,6 +30,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
 
 
 <!-- Include jQuery (required by Owl Carousel) -->
@@ -95,82 +96,137 @@
 }
 
 
+
+
+  /* Apply custom height only for desktop view (medium screens and up) */
+  @media (min-width: 768px) {
+    .custom-height {
+      height: 600px;
+    }
+  }
+
+  /* For smaller screens, remove the height or set it to auto */
+  @media (max-width: 767.98px) {
+    .custom-height {
+      height: auto;
+    }
+  }
+  .contact_through .row {
+   display: flex;
+   justify-content: space-between; /* Even spacing between columns */
+   padding: 25px;
+   margin-top:-10px;
+   margin-bottom: -30px;
+}
+
+.whatsapp-float, .call-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.call-float {
+    bottom: 80px; /* Adjust this value to position the call icon above the WhatsApp icon */
+    background-color: #34b7f1; /* Blue for call icon */
+}
+
+.whatsapp-icon, .call-icon {
+    font-size: 24px;
+}
+
+
+
 </style>
 
 
    </head>
-   <body class="sbar_color_one">
-      
-   <!-- Preloader -->
-<div class="preloader"></div>
-<!-- End Preloader --> 
-<div class="page-wapper home-page-two">
-   <header class="site-header" id="header-two">
-      <div class="top-bar">
-         <div class="container">
-            <div  class="row clearfix">
-               <div class="col-lg-12">
-                  <div class="float-left">
-                     <p><i class="fa fa-map-marker"></i> Thiruvegappura Near: Hi Line Mall 679304 [PIN] Pattambi , Palakkad </p>
-                  </div>
-                  <div class="float-right ">
-                     <div class="inner-sec">
-                        <ul class="social-media">
-                           <li><a href="https://www.facebook.com/Dr-Nadhas-Healthcare-Homoeopathic-Clinic-112000624445666"><i class="fa fa-facebook"></i></a></li>
-                           <li><a href="https://www.instagram.com/drnadhas/"><i class="fa fa-instagram"></i></a></li>
-                           <li><a href="https://t.me/joinchat/a48csYy_zV42MDk9"><i class="fa fa-telegram"></i></a></li>
-                       </ul>
-                       
-                        
-                     </div>
+   <body class="sbar_color_one">    
+      <!-- Preloader -->
+      <div class="preloader"></div>
+      <!-- End Preloader --> 
+     <div class="page-wapper home-page-two">
+<header class="site-header" id="header-two">
+   <div class="top-bar">
+      <div class="container">
+         <div  class="row clearfix">
+            <div class="col-lg-12">
+               <div class="float-left">
+                  <p>
+                     <i class="fa fa-map-marker " style="color: red; margin-right:0px;"></i> 
+                     <a href="https://www.google.com/maps/place/Thiruvegappura,+Kerala/@10.874881,76.128465,13z/data=!4m6!3m5!1s0x3ba7c85b11204c19:0xf2ce9384b15e3034!8m2!3d10.8743764!4d76.1290961!16zL20vMDh0NWNt?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: none; color: inherit;">
+                         Thiruvegappura <br> Near: Hi Line Mall 679304 [PIN] Pattambi , Palakkad
+                     </a>
+                 </p>
+                 
+               </div>
+               <div class="float-right ">
+                  <div class="inner-sec">
+                     <ul class="social-media p-3">
+                        <li><a href="https://www.facebook.com/Dr-Nadhas-Healthcare-Homoeopathic-Clinic-112000624445666"><i class="fa fa-facebook" style="color: #3b5998;"></i></a></li>
+                        <li><a href="https://www.instagram.com/drnadhas/"><i class="fa fa-instagram" style="color: #E1306C;"></i></a></li>
+                        <li><a href="https://t.me/joinchat/a48csYy_zV42MDk9"><i class="fa fa-telegram" style="color: #0088cc;"></i></a></li>
+                    </ul>
+                    
+                     
                   </div>
                </div>
             </div>
          </div>
       </div>
-<!-- Navbar -->
-<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide">
-  <div class="container">
-    <!-- Brand Logo -->
-    <!-- Laptop view (visible on large screens) -->
-<!-- Laptop view (visible on large screens) -->
-<a class="navbar-brand d-flex align-items-center " href="index.html">
-   <!-- Logo Image -->
-   <img src="assets/image/logo-new.png" class="img-fluid" style="max-width: 150px; height: 80px;" alt="Company Logo">
-   <!-- Company Name -->
-   <span class="company-name ml-2" style="color:#665b48;">Dr Nadha's Health care <br> homoeopathic clinic</span>
- </a>
- 
- 
- <!-- Mobile view (visible on small screens) -->
+   </div>
+      <!-- Navbar -->
+      <div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide">
+         <div class="container">
+           <!-- Brand Logo -->
+           <a class="navbar-brand d-flex align-items-center" href="index.html">
+             <!-- Logo Image -->
+             <img src="assets/image/nadas-logo.png" class="img-fluid" style="max-width: 150px; height: 50px;" alt="Company Logo">
+           </a>
+       
 
+           <a href="tel:+919645940008" class="btn button call-button d-lg-none " style="background-color: #c5ae8f; color: white; margin-left: 100px;">
+            <i class="fas fa-phone-alt   " ></i> Call Us
+          </a>
+           <!-- Toggler for Mobile View -->
+           <button class="navbar-toggler toggler-spring" type="button" data-toggle="collapse" data-target="#navbarNav">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+          
+
+          
+           <!-- Collapsible Content -->
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav navbar-mobile ml-auto mr-auto">
+               <li class="nav-item active">
+                 <a class="nav-link link_hd" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link link_hd" href="aboutus.html">About Us</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link link_hd" href="contact.html">Contact Us</a>
+               </li>
+             </ul>
+       
+             <!-- Call Us Button -->
+             <a href="tel:+919645940008" class="btn button call-button d-none d-lg-block " style="background-color: #c5ae8f; color: white; margin-right: 10px;">
+               <i class="fas fa-phone-alt   " ></i> Call Us
+             </a>
+       
+             <!-- Book An Appointment Button -->
+             <a href="#appointmentForm" type="button" class="btn button r" style="background-color: #c5ae8f; color: white;">
+               Book An Appointment
+             </a>
+           </div>
+         </div>
+       </div>
  
-    
-    <!-- Toggler for Mobile View -->
-    <button class="navbar-toggler toggler-spring" type="button" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Collapsible Content -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav navbar-mobile ml-auto mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link link_hd" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link_hd" href="aboutus.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link_hd" href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-      
-      <!-- Button -->
-      <a href="#appointmentForm" type="button" class="btn button r" style="background-color: #c5ae8f; color: white;">Book An Appointment</a>
-
-    </div>
-  </div>
-</div>
 <!-- End Main Header -->
 
             <!--End Main Header -->
@@ -178,6 +234,18 @@
          <!------main-content------>
          <main class="main-content">
           
+
+<!-- WhatsApp Icon -->
+<a href="https://wa.me/919645940008" class="whatsapp-float" target="_blank">
+   <i class="fa fa-whatsapp whatsapp-icon"></i>
+</a>
+
+<!-- Call Icon -->
+<a href="tel:+919645940008" class="call-float">
+   <i class="fa fa-phone call-icon"></i>
+</a>
+
+
 
 
      <!------main-slider------>
@@ -193,93 +261,171 @@
 <!------main-slider------>
 
 <!-------appointment-section----->
-<section class="appointment_section hm-one">
-    <div class="container">
-        <div class="appointment_inner">
-            <div class="row">
-                <!-- Working Hours Section -->
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
-                    <div class="appont_sec_inner">
-                        <h6 class="text-center">WORK HOURS</h6>
-                        <ul class="list-unstyled">
-                            <!-- Flexbox for aligned day and time with dots -->
-                            <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
-                                <span>Monday</span>
-                                <span>10:00 am - 06:00 pm</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
-                                <span>Tuesday</span>
-                                <span>10:00 am - 06:00 pm</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
-                                <span>Wednesday</span>
-                                <span>10:00 am - 06:00 pm</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
-                                <span>Thursday</span>
-                                <span>10:00 am - 06:00 pm</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
-                                <span>Friday</span>
-                                <span>10:00 am - 06:00 pm</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
-                                <span>Saturday</span>
-                                <span>10:00 am - 06:00 pm</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Booking Appointment Form Section -->
-                <div  id="appointmentForm" class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="appont_sec_inner">
-                        <h6 class="text-center text-white m  " style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);" > BOOK AN APPOINTMENT</h6>
-                        <form onsubmit="sendWhatsAppMessage(event)" class="needs-validation" novalidate>
-                           <div class="row">
-                               <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                                   <div class="form-group">
-                                       <input type="text" name="name" id="name" placeholder="Name*" class="form-control" required>
-                                       <div class="invalid-feedback">The field is required.</div>
-                                   </div>
-                               </div>
-                               <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                                   <div class="form-group">
-                                       <input type="email" name="email" id="email" placeholder="Email*" class="form-control" required>
-                                       <div class="invalid-feedback">The field is required.</div>
-                                   </div>
-                               </div>
-                               <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                                   <div class="form-group">
-                                       <input type="text" name="phone" id="phone" placeholder="Phone*" class="form-control" required>
-                                       <div class="invalid-feedback">The field is required.</div>
-                                   </div>
-                               </div>
-                               <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
-                                   <div class="form-group">
-                                       <input id="datepicker" class="form-control date" name="date" placeholder="Date">
-                                       <span class="add-on"><i class="icon flaticon-calendar"></i></span>
-                                   </div>
-                               </div>
-                               <div class="col-lg-12 col-md-12 col-sm-12">
-                                   <button class="btn theme-btn w-100" type="submit" name="submit-form" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">
-                                       BOOK YOUR APPOINTMENT NOW
-                                   </button>
-                               </div>
-                           </div>
-                       </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="appointment_section hm-one d-none d-lg-block"> <!-- Hides on small and medium, visible on large screens -->
+   <div class="container">
+       <div class="row">
+           <!-- Working Hours Section -->
+           <div class="col-lg-5 col-md-5 col-sm-12  appointment_inner mx-4 p-5">
+               <div class="appont_sec_inner p-0">
+                   <h6 class="text-center">WORKING HOURS</h6>
+                   <ul class="list-unstyled">
+                       <!-- Flexbox for aligned day and time with dots -->
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Monday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Tuesday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Wednesday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Thursday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Friday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Saturday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                         <span>Sunday</span>
+                         <span>10:00 am - 06:00 pm</span>
+                     </li>
+                   </ul>
+               </div>
+           </div>
+           
+           <!-- Booking Appointment Form Section -->
+           <div id="appointmentForm" class="col-lg-6 col-md-12 col-sm-12 appointment_inner mx-3 p-5">
+               <div class="appont_sec_inner">
+                   <h6 class="text-center text-white mt-5" style="background-color: #c5ae8f;">BOOK AN APPOINTMENT</h6>
+                   <form onsubmit="sendWhatsAppMessage(event)" class="needs-validation" novalidate>
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                              <div class="form-group">
+                                  <input type="text" name="name" id="name" placeholder="Name*" class="form-control" required>
+                                  <div class="invalid-feedback">The field is required.</div>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                              <div class="form-group">
+                                  <input type="text" name="phone" id="phone" placeholder="Phone*" class="form-control" required>
+                                  <div class="invalid-feedback">The field is required.</div>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                              <div class="form-group">
+                                  <input id="datepicker" class="form-control date" name="date" placeholder="Date">
+                                  <span class="add-on"><i class="icon flaticon-calendar"></i></span>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12">
+                              <button class="btn theme-bt w-100 text-white mt-0" type="submit" name="submit-form" style="background-color: #c5ae8f;">
+                                  BOOK YOUR APPOINTMENT NOW
+                              </button>
+                          </div>
+                      </div>
+                  </form>
+               </div>
+           </div>
+       </div>
+   </div>
 </section>
 
-<div   class=""  style="background-color: #f4f4f4; "> 
+
+
+<section class="appointment_section hm-one d-lg-none"> <!-- This hides the section on large screens -->
+   <div class="container">
+       <div class="row">
+           <!-- Working Hours Section -->
+           <div class="col-lg-5 col-md-5 col-sm-12  appointment_inner p-5">
+               <div class="appont_sec_inner p-0">
+                   <h6 class="text-center">WORKING HOURS</h6>
+                   <ul class="list-unstyled">
+                       <!-- Flexbox for aligned day and time with dots -->
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Monday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Tuesday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Wednesday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Thursday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Friday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                           <span>Saturday</span>
+                           <span>10:00 am - 06:00 pm</span>
+                       </li>
+                       <li class="d-flex justify-content-between align-items-center position-relative work-hours-item">
+                         <span>Sunday</span>
+                         <span>10:00 am - 06:00 pm</span>
+                     </li>
+                   </ul>
+               </div>
+           </div>
+           
+           <!-- Booking Appointment Form Section -->
+           <div id="appointmentForm" class="col-lg-6 col-md-12 col-sm-12 appointment_inner  p-5 " style="margin-top: 50px;">
+               <div class="appont_sec_inner">
+                   <h6 class="text-center text-white mt-5" style="background-color: #c5ae8f;">BOOK AN APPOINTMENT</h6>
+                   <form onsubmit="sendWhatsAppMessage(event)" class="needs-validation" novalidate>
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                              <div class="form-group">
+                                  <input type="text" name="name" id="name" placeholder="Name*" class="form-control" required>
+                                  <div class="invalid-feedback">The field is required.</div>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                              <div class="form-group">
+                                  <input type="text" name="phone" id="phone" placeholder="Phone*" class="form-control" required>
+                                  <div class="invalid-feedback">The field is required.</div>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                              <div class="form-group">
+                                  <input id="datepicker" class="form-control date" name="date" placeholder="Date">
+                                  <span class="add-on"><i class="icon flaticon-calendar"></i></span>
+                              </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12">
+                              <button class="btn theme-bt w-100 text-white mt-0" type="submit" name="submit-form" style="background-color: #c5ae8f;">
+                                  BOOK YOUR APPOINTMENT NOW
+                              </button>
+                          </div>
+                      </div>
+                  </form>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+<div   class="mb-0"  style="background-color: #f4f4f4; "> 
 <div class="container p-5" >
    <div class="row">
      <!-- Image Section (6 columns) -->
      <div class="col-md-6 mt-5 " >
-       <img src="assets/image/homeopathy.jpg" class="img-fluid" alt="Holistic Care Image">
+       <img src="assets/image/homeopathy.jpg" class="img-fluid rounded" alt="Holistic Care Image">
      </div>
      
      <!-- Content Section (6 columns) -->
@@ -289,12 +435,12 @@
            <span>OUR PRIORITY</span>
          </h1>
          
-         <div class="text">
+         <div class="text" style="text-align: justify;">
             Your health is Our priority. At Dr.Nadha's Health Care Homoeo Clinic, our experienced homeopathic doctors are dedicated to providing personalized care that addresses your unique health needs. We offer a comprehensive range of services, from in-depth consultations to customized homeopathic remedies. Our holistic approach focuses on treating the whole person, promoting optimal health and well-being.
          </div>
          
          <div class="link-box mt-5">
-           <a href="contact.html" class="theme-btn" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">Call Doctor</a>
+           <a href="contact.html" class="btn text-white" style="background-color: #c5ae8f;">Contact Us</a>
          </div>
        </div>
      </div>
@@ -308,7 +454,7 @@
 
 
 <!-------appointment-section----->
-<section class="department_section hm-one">
+<section class="department_section hm-one mt-0">
    <div class="container">
        <div class="row">
          <div class="col-lg-12 d-flex justify-content-center text-center">
@@ -354,16 +500,16 @@
          <div class="row d-flex flex-wrap">
              <div class="col-lg-4 d-flex">
                  <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
-                     <img src="assets/image/kidney.jpg" alt="Kidney Stones" class="img-fluid" />
+                     <img src="assets/image/kidney.jpg" alt="Kidney Stones" class="img-fluid rounded" />
                      <h2>Kidney Stones</h2>
                      <p>We offer effective treatment for kidney stones to reduce pain and prevent stones forming.</p>
-                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
+                     <a href="https://wa.me/919645940008" target="_blank" class="btn text-white  " style="background-color: #c5ae8f;" >Book Now</a>
                   </div> 
              </div>
 
              <div class="col-lg-4 d-flex">
                  <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
-                     <img src="assets/image/psych.png" alt="Psychological Problems" class="img-fluid" />
+                     <img src="assets/image/psych.png" alt="Psychological Problems" class="img-fluid rounded" />
                      <h2>Psychological Problems</h2>
                      <p>We offer counseling services to help individuals address their mental health concerns.</p>
                      <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
@@ -372,7 +518,7 @@
 
              <div class="col-lg-4 d-flex">
                  <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
-                     <img src="assets/image/piles.jpg" alt="Piles/Fistula" class="img-fluid" />
+                     <img src="assets/image/piles.jpg" alt="Piles/Fistula" class="img-fluid rounded" />
                      <h2>Piles/Fistula</h2>
                      <p>We provide effective treatment for hemorrhoids and fistula without surgery.</p>
                      <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
@@ -386,7 +532,7 @@
       <div class="row d-flex flex-wrap">
           <div class="col-lg-4 d-flex">
               <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
-                  <img src="assets/image/learning.jpg" alt="Learning Disability" class="img-fluid" />
+                  <img src="assets/image/learning.jpg" alt="Learning Disability" class="img-fluid rounded" />
                   <h2>Learning Disability</h2>
                   <p>Our facility offers excellent care and support for individuals with learning disabilities.</p>
                   <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
@@ -395,7 +541,7 @@
 
           <div class="col-lg-4 d-flex">
               <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
-                  <img src="assets/image/gyno.jpg" alt="Gynecological Issues" class="img-fluid" />
+                  <img src="assets/image/gyno.jpg" alt="Gynecological Issues" class="img-fluid rounded" />
                   <h2>Gynecological Issues</h2>
                   <p>Our clinic specializes in diagnosing and treating gynecological issues and concerns.</p>
                   <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
@@ -404,7 +550,7 @@
 
           <div class="col-lg-4 d-flex">
               <div class="department_icon_content w-100 d-flex flex-column align-items-center text-center">
-                  <img src="assets/image/life.jpg" alt="Lifestyle Diseases" class="img-fluid" />
+                  <img src="assets/image/life.jpg" alt="Lifestyle Diseases" class="img-fluid rounded" />
                   <h2>Lifestyle Diseases</h2>
                   <p>We focus on preventing and managing lifestyle diseases with customized treatments & lifestyle modifications.</p>
                   <a href="https://wa.me/919645940008" target="_blank" class="btn text-white " style="background-color: #c5ae8f;" >Book Now</a>
@@ -421,39 +567,7 @@
 
 
 <!---------welcomen-sec--------->
-<section class="welcome_section hme-one" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">
-   <div class="container">
-       <div class="row">
-           <div class="col-lg-12">
-               <div class="welcme_inner">
-                   <div class="heading clearfix">
-                       <h1 >WELCOME TO <span style="color: white;">Dr Nadhas Homoeo</span></h1>
-                   </div>
-                   <h6 style="color: white;">Our mission is to provide first-class independent healthcare for the local community in a safe, comfortable, and welcoming environment.</h6>
-                   <p style="color: white;">Health Care Homoeo Clinic is one of the best homoeopathic clinics in Kerala, located in Thiruvegappura, Palakkad district.
-                       
-                       Welcome to Health Care Homoeo Clinic, your trusted source for comprehensive and personalized homeopathic care. Our dedicated team of classical homeopathic practitioners is committed to helping you achieve optimal health and well-being through the gentle yet effective methods of homeopathy.
-                       
-                       Discover the healing power of classical homeopathy at Health Care Homoeo Clinic. We offer personalized treatment plans tailored to your individual needs, based on in-depth research and analysis. Experience the transformative benefits of homeopathic care.
-                       
-                       We treat a wide range of diseases including:
-                       infertility, counseling, allergies, asthma, migraine, sinusitis, bed wetting, gastritis, aphthae, constipation, eczema, skin diseases, newborn diseases, and more.
-                   </p>
-                   <ul>
-                       <li><img src="assets/image/cert1.png" class="img-fluid  " alt="awards" style="height: 130px;" /></li>
-                       <li><img src="assets/image/cert2.png" class="img-fluid" alt="awards"  style="height: 130px;"/></li>
-                       <!-- <li><img src="assets/image/awards-3.png" class="img-fluid" alt="awards" /></li>
-                       <li><img src="assets/image/awards-4.png" class="img-fluid" alt="awards" /></li> -->
-                   </ul>
-                   
-               </div>
-           </div>
-           <div class="col-lg-6">
-               <!-- Additional content can go here -->
-           </div>
-       </div>
-   </div>
-</section>
+
 
 <!---------welcomen-sec--------->
 <!-------------DOCTOR TO THE COMMUNITY.--------->
@@ -472,7 +586,7 @@
       </div>
    </div>
 </section> -->
-<div class="container mt-5 text-center">
+<div class="container mt-5 text-center d-none  d-lg-block">
    <h2>OUR <span style="color: #c5ae8f;"> HIGHLIGHTS</span> </h2>
    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
        <div class="col-md-4 p-5">
@@ -484,7 +598,7 @@
                <h5 class="mb-0">Patient-Centered Care</h5>
            </div>
        </div>
-       <div class="col-md-4 p-5">
+       <div class="col-md-4 p-5 ">
            <div class="d-flex flex-column align-items-center">
                <div class="rounded-circle d-flex justify-content-center align-items-center" 
                     style="width: 100px; height: 100px; background-color: #dbd0be;">
@@ -534,21 +648,83 @@
 
 
 
+<div class="container mt-5 text-center d-block  d-lg-none">
+   <h2>OUR <span style="color: #c5ae8f;"> HIGHLIGHTS</span> </h2>
+   <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+       <div class="col-md-4 p-3">
+           <div class="d-flex flex-column align-items-center">
+               <div class="rounded-circle d-flex justify-content-center align-items-center" 
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
+                   <img src="assets/image/icons-01.png" alt="Logo 1" style="max-width: 60%; max-height: 60%;">
+               </div>
+               <h5 class="mb-0">Patient-Centered Care</h5>
+           </div>
+       </div>
+       <div class="col-md-4 p-3 ">
+           <div class="d-flex flex-column align-items-center">
+               <div class="rounded-circle d-flex justify-content-center align-items-center" 
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
+                   <img src="assets/image/icons-02.png" alt="Logo 2" style="max-width: 60%; max-height: 60%;">
+               </div>
+               <h5 class="mb-0">Integrity</h5>
+           </div>
+       </div>
+       <div class="col-md-4 p-3">
+           <div class="d-flex flex-column align-items-center">
+               <div class="rounded-circle d-flex justify-content-center align-items-center" 
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
+                   <img src="assets/image/03.png" alt="Logo 3" style="max-width: 60%; max-height: 60%;">
+               </div>
+               <h5 class="mb-0">Excellence & Teamwork</h5>
+           </div>
+       </div>
+       <div class="col-md-4 p-3">
+           <div class="d-flex flex-column align-items-center">
+               <div class="rounded-circle d-flex justify-content-center align-items-center" 
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
+                   <img src="assets/image/04.png" alt="Logo 4" style="max-width: 60%; max-height: 60%;">
+               </div>
+               <h5 class="mb-0">Innovation</h5>
+           </div>
+       </div>
+       <div class="col-md-4 p-3">
+           <div class="d-flex flex-column align-items-center">
+               <div class="rounded-circle d-flex justify-content-center align-items-center" 
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
+                   <img src="assets/image/05.png" alt="Logo 5" style="max-width: 60%; max-height: 60%;">
+               </div>
+               <h5 class="mb-0">Mutual Trust</h5>
+           </div>
+       </div>
+       <div class="col-md-4 p-3">
+           <div class="d-flex flex-column align-items-center">
+               <div class="rounded-circle d-flex justify-content-center align-items-center" 
+                    style="width: 100px; height: 100px; background-color: #dbd0be;">
+                   <img src="assets/image/06.png" alt="Logo 6" style="max-width: 60%; max-height: 60%;">
+               </div>
+               <h5 class="mb-0">Ethical Practices</h5>
+           </div>
+       </div>
+   </div>
+</div>
+
+
+
 <!-------appointment-section----->
 
  
-<section class="best-doctors hme-one">
+<section class="best-doctors hme-one" style="height: 650px;">
    <div class="container">
       <div class="row">
          <div class="col-lg-12">
             <div class="heading">
-               <h1>BEST DOCTORS<span style="color: #c5ae8f;"> FOR YOU</span></h1>
+               <h3>BEST DOCTORS<span style="color: #c5ae8f; font-size: larger;"> FOR YOU</span></h3>
             </div>
          </div>
       </div>
       <div class="row">
          <div class="col-lg-12">
-            <div class="owl-carousel owl-theme three-item">
+            <div class="owl-carousel owl-them three-item">
 
                <div class="best-doctor-outer">
                   <div class="image">
@@ -581,7 +757,7 @@
                      <h2><a href="#"> Dr. JUSNA NASEEM <br>BHMS, MSc (Psychology), PG Diploma in Counselling </a></h2>
                   </div>
                </div>
-
+             
             </div>
             <div class="view-more-doctors">
                <!-- <a href="#" class="view-doctors">SEE ALL DOCTORS</a> -->
@@ -593,77 +769,62 @@
 
 
 
-<div class="gallery_typone demo-gallery mb-4"> 
-   <div class="container-fluid">
-     <div id="lightgallery" class="list-unstyled row gallery_typone-outer">
 
-       
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-1.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/1p.jpeg" class="img-fluid" alt="img">
-        
-                    </a>
-           </div>
-        </div>
-         
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-2.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/2p.jpeg" class="img-fluid" alt="img">
-        </a>
-                    
-           </div>
-        </div>
-       
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-3.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/3p.jpeg" class="img-fluid" alt="img">
+
+
+
+
+
+
+
+
+<div class="gallery_typone demo-gallery" style="background-color: #f4f4f4;"> 
+   <div class="container-fluid">
+      <h2 class="text-center mb-5">NEWS <span style="color: #c5ae8f; font-weight: bold;">& UPDATIONS</span></h2>
+      <div id="lightgallery" class="list-unstyled row gallery_typone-outer">
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/1p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/1p.jpeg">
+            <img class="img-fluid" src="assets/image/1p.jpeg" alt="img">
           </a>
-          
-           </div>
         </div>
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/4p.jpeg" class="img-fluid" alt="img">
-             </a>
-             
-           </div>
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/2p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/2p.jpeg">
+            <img class="img-fluid" src="assets/image/2p.jpeg" alt="img">
+          </a>
         </div>
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/5p.jpeg" class="img-fluid" alt="img">
-             </a>
-             
-           </div>
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/3p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/3p.jpeg">
+            <img class="img-fluid" src="assets/image/3p.jpeg" alt="img">
+          </a>
         </div>
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/6p.jpeg" class="img-fluid" alt="img">
-             </a>
-             
-           </div>
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/4p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/4p.jpeg">
+            <img class="img-fluid" src="assets/image/4p.jpeg" alt="img">
+          </a>
         </div>
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-4.jpg" data-sub-html="<h4><a>gallery_typone</a></h4><p>Verner Panthella Table Lamp</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/7p.jpeg" class="img-fluid" alt="img">
-             </a>
-             
-           </div>
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/5p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/5p.jpeg">
+            <img class="img-fluid" src="assets/image/5p.jpeg" alt="img">
+          </a>
         </div>
-        <div class="gallery_typone-inner" data-responsive="" data-src="assets/image/gallery/hm-2-gallery-5.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-           <div class="gallery_typone-image">
-                 <a href="">  <img  src="assets/image/8p.jpeg"
-             
-           </div>
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/6p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/6p.jpeg">
+            <img class="img-fluid" src="assets/image/6p.jpeg" alt="img">
+          </a>
         </div>
-        
-      
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/7p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/7p.jpeg">
+            <img class="img-fluid" src="assets/image/7p.jpeg" alt="img">
+          </a>
         </div>
+        <div class="gallery_typone-inner col-xs-6 col-sm-4 col-md-3" data-src="assets/image/8p.jpeg" data-sub-html="<h4>Title</h4><p>Description</p>">
+          <a href="assets/image/8p.jpeg">
+            <img class="img-fluid" src="assets/image/8p.jpeg" alt="img">
+          </a>
         </div>
-        </div>
-       
-     </div>
-  </div>
-</div> 
+      </div>
+   </div>
+</div>
 
    
 
@@ -687,7 +848,7 @@
              </div>
            </div>
            <!-- Testimonials Carousel -->
-           <div class="owl-carousel owl-theme two-item">
+           <div class="owl-carousel owl-them two-item">
              <!-- Testimonial 1 -->
              <div class="testimonial_content d-flex flex-column justify-content-between align-items-center" style="height: 500px;">
                <p class="flex-grow-1">"My name is Anees. I'm an allergy patient. For many years, I spent a lot of money on treatment at various hospitals. That's when I heard about Thiruvegapura Health Care Homoeo Clinic and their Chief Consultant, Dr. Nadha. I heard that many patients had been completely cured by the treatment there. So, I went there for treatment. The doctor took the time to inquire in detail about my medical history and prescribed medicine. After a few months of continuous treatment, my illness was completely cured. Now, Dr. Nadha is our family doctor. I refer many of my friends to Health Care Homoeo Clinic."</p>
@@ -772,47 +933,79 @@
            </div>
          </div>
        </section>
+
+
+
+       <section class="welcome_section hme-one custom-height" style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12">
+                     <div class="welcme_inner">
+                         <div class="heading clearfix">
+                             <h1 >WELCOME TO <span style="color: white;">Dr. Nadha's Health Care Homoeo Clinic</span></h1>
+                         </div>
+                         <h6 style="color: white;">Our mission is to provide first-class independent healthcare for the local community in a safe, comfortable, and welcoming environment.</h6>
+                         <p style="color: white;">Health Care Homoeo Clinic is one of the best homoeopathic clinics in Kerala, located in Thiruvegappura, Palakkad district.
+                             
+                             Welcome to Health Care Homoeo Clinic, your trusted source for comprehensive and personalized homeopathic care. Our dedicated team of classical homeopathic practitioners is committed to helping you achieve optimal health and well-being through the gentle yet effective methods of homeopathy.
+                             
+                             Discover the healing power of classical homeopathy at Health Care Homoeo Clinic. We offer personalized treatment plans tailored to your individual needs, based on in-depth research and analysis. Experience the transformative benefits of homeopathic care.
+                             
+                             We treat a wide range of diseases including:
+                             infertility, counseling, allergies, asthma, migraine, sinusitis, bed wetting, gastritis, aphthae, constipation, eczema, skin diseases, newborn diseases, and more.
+                         </p>
+                         <ul>
+                             <li><img src="assets/image/cert1.png" class="img-fluid  " alt="awards" style="height: 130px;" /></li>
+                             <li><img src="assets/image/cert2.png" class="img-fluid" alt="awards"  style="height: 130px;"/></li>
+                             <!-- <li><img src="assets/image/awards-3.png" class="img-fluid" alt="awards" /></li>
+                             <li><img src="assets/image/awards-4.png" class="img-fluid" alt="awards" /></li> -->
+                         </ul>
+                         
+                     </div>
+                 </div>
+                 <div class="col-lg-6">
+                     <!-- Additional content can go here -->
+                 </div>
+             </div>
+         </div>
+      </section>
 <!-------contact-through----->
 <div class="contact_through">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div class="contact_through_inner">
-                  <span class="flaticon-phone-1 icon"></span>
-                  <p>Emergency Cases: <br/>
-                     9645 94 0008 <br/>
-                     9745 94 0008 </p>
-               </div>
+   <div class="container">
+      <div class="row justify-content-between"> <!-- Add justify-content-between -->
+         <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+            <div class="contact_through_inner">
+               <span class="flaticon-phone-1 icon"></span>
+               <p>Emergency Cases: <br/>
+                  9645 94 0008 <br/>
+                  9745 94 0008 
+               </p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div class="contact_through_inner">
-                  <span class="flaticon-placeholder icon"></span>
-                  <p>Dr. Nadha's Health Care Homoeo Clinic 
-                     Thiruvegappura 
-                     Near: Hi Line Mall
-                     679304 [PIN]
-                     Pattambi  , Palakkad 
-                     Kerala  <br/>
-                     </p>
-               </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+            <div class="contact_through_inner">
+               <span class="flaticon-placeholder icon"></span>
+               <p>Dr. Nadha's Health Care Homoeo Clinic 
+                  Thiruvegappura 
+                  Near: Hi Line Mall
+                  679304 [PIN]
+                  Pattambi  , Palakkad 
+                  Kerala  <br/>
+               </p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div class="contact_through_inner">
-                  <span class="flaticon-envelope icon"></span>
-                  <p>Email Address<br/>
-                     nadhashealthcare@gmail.com </p>
-               </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6">
-               <div class="contact_through_inner">
-                  <span class="flaticon-calendar icon"></span>
-                  <p>Book Online<br/>
-                     Appointment Now</p>
-               </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+            <div class="contact_through_inner">
+               <span class="flaticon-envelope icon"></span>
+               <p>Email Address<br/>
+                  nadhashealthcare@gmail.com 
+               </p>
             </div>
          </div>
       </div>
    </div>
+</div>
+
    <!-------contact-through----->
    
    <a href="#" class="link"></a>
@@ -843,9 +1036,9 @@
                      <h2>DEPARTMENTS</h2>
                      <div class="footer-text">
                         <ul>
-                           <li><a href="#"> General</a></li>
-                           <li><a href="#">Infertility</a></li>
-                           <li><a href="#">Councillig </a></li>
+                           <li> General</a></li>
+                           <li>Infertility</a></li>
+                           <li>Councillig </a></li>
                            
                         </ul>
                      
@@ -868,21 +1061,21 @@
                      </div>
                   </div>
                </div>
-
                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                     <div class="footer-widget third">
-                        <h2>NEWSLETTER</h2>
-                        <div class="footer-text">
-                           <p>Subscribe to our newsletter. We are not spammers.!</p>
-                           <form>
+                  <div class="footer-widget third">
+                      <h2>FOR ENQUIRY</h2>
+                      <div class="footer-text">
+                          <p>Contact us for more information</p>
+                          <form>
                               <div class="form-group">
-                                    <input type="email"  id="email" placeholder="Enter Your Email*" ><br/>
-                                    <button class="theme-btn" type="submit"  style="background: linear-gradient(90deg, #c5ae8f 29%, #918c8c 100%);" >SUBSCRIBE</button>
+                                  <textarea id="message" placeholder="Enter Your Message*" rows="2" cols="30"></textarea><br/>
+                                  <button class="btn text-white" type="button" style="background-color: #c5ae8f;" 
+                                          onclick="redirectToWhatsApp()">CONTACT US</button>
                               </div>
-                           </form>
-                        </div>
-                     </div>
+                          </form>
+                      </div>
                   </div>
+              </div>
 
 
          </div>
@@ -949,6 +1142,17 @@
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
       <script src="assets/js/gmaps.js"></script>
       <script src="assets/js/map-script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lg-thumbnail.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lg-fullscreen.min.js"></script>
+      <script>
+function redirectToWhatsApp() {
+    var message = document.getElementById("message").value;
+    var phoneNumber = "919645940008"; // Your WhatsApp number in international format without +
+    var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    window.location.href = whatsappURL;
+}
+</script>
       <script>
          $(document).ready(function(){
            $(".main-slider-carousel").owlCarousel({
@@ -992,6 +1196,17 @@
         });
     });
 </script>
+
+<script>
+   $(document).ready(function() {
+    $("#lightgallery").lightGallery({
+        thumbnail: true,
+        animateThumb: false,
+        showThumbByDefault: false
+    });
+});
+</script>
+
       <!--End Google Map APi-->
    </body>
 </html>

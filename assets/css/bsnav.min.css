@@ -165,7 +165,7 @@ font-family: 'Nunito Sans', sans-serif;
     border-left-color: #fff;
     border-right-color: #fff
 }
-.fa.fa-close{ color: #568701; font-size: 26px; line-height: 30px; }
+.fa.fa-close{ color: #c5ae8f; font-size: 26px; line-height: 30px; }
 .bsnav {
 background: transparent;
     padding-top: 0;
@@ -351,7 +351,7 @@ background: transparent;
 .navbar-nav .nav-item.nav-item-fill>.nav-link:focus>.nav-link,
 .navbar-nav .nav-item.nav-item-fill>.nav-link:hover>.nav-link {
     background: #2b2c36;
-    color: #568701
+    color: #c5ae8f
 }
 
 .navbar-nav .nav-item.nav-item-double-line.active>.nav-link,
@@ -575,7 +575,7 @@ font-size: 15px; text-transform: inherit; border-bottom: 1px solid #eaeaea;     
     background: #fff;
     width: 250px;
     position: absolute; padding: 0px 0px; 
-    pointer-events: none; border-top:3px solid #568701;
+    pointer-events: none; border-top:3px solid #c5ae8f;
     flex-direction: column;
     transition: .3s ease-out;
     transition-delay: .1s;

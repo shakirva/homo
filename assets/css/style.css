@@ -158,14 +158,14 @@ body.sbar_color_three::-webkit-scrollbar-track {
 }
 
 body.sbar_color_three::-webkit-scrollbar-thumb {
-	background: #568701;
+	background: #c5ae8f;
 	-webkit-box-shadow: inset 0 0 6px #27dc84;
 	-moz-box-shadow: inset 0 0 6px #27dc84;
 	box-shadow: inset 0 0 6px #27dc84;
 }
 
 body.sbar_color_three::-webkit-scrollbar-thumb:window-inactive {
-	background: #568701;
+	background: #c5ae8f;
 }
 
 
@@ -422,7 +422,7 @@ textarea:focus {
 .navbar-nav .nav-item:active>.nav-link,
 .navbar-nav .nav-item:focus>.nav-link,
 .navbar-nav .nav-item:hover>.nav-link {
-    color: #568701;
+    color: #c5ae8f;
 }
 
 
@@ -462,13 +462,13 @@ textarea:focus {
 }
 
 .sbar_color_one #scroll {
-	background: #568701;
+	background: #c5ae8f;
 	border-radius: 3px;
 	bottom: 47px;
 }
 
 .sbar_color_one .view-doctors {
-	background: #568701;
+	background: #c5ae8f;
 }
 
 .sbar_color_two #scroll {
@@ -1247,7 +1247,7 @@ textarea:focus {
 	line-height: 50px;
 	background: #fff;
 	border: 0px;
-	color: #568701;
+	color: #c5ae8f;
 	box-shadow: none;
 	font-weight: 800;
 	font-size: 14px;
@@ -1363,7 +1363,7 @@ textarea:focus {
 
 .contact-sec .number {
 	margin-left: 55px;
-	color: #568701;
+	color: #c5ae8f;
 	font-size: 32px;
 	font-weight: 800;
 	line-height: 38px;
@@ -1372,7 +1372,7 @@ textarea:focus {
 .contact-right i {
 	font-size: 33px;
 	line-height: 30px;
-	color: #568701;
+	color: #c5ae8f;
 	float: left;
 	padding-top: 9px;
 }
@@ -1426,7 +1426,7 @@ textarea:focus {
 
 .welcome-content .icon {
 	font-size: 65px;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 65px;
 	display: block;
 	margin-bottom: 25px;
@@ -1490,7 +1490,7 @@ textarea:focus {
 
 .service-icon span {
 	font-size: 25px;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 30px;
 	padding: 12px 12px 12px 13px;
 	position: relative;
@@ -1588,7 +1588,7 @@ textarea:focus {
 }
 
 .our-service .service-content:hover a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 
@@ -1668,7 +1668,7 @@ textarea:focus {
 
 .testimonial .owl-carousel .owl-nav .owl-prev:hover,
 .testimonial .owl-carousel .owl-nav .owl-next:hover {
-	color: #48b53c;
+	color: #b53c3c;
 }
 
 .testimonial .owl-carousel .owl-nav .owl-prev {
@@ -1791,6 +1791,8 @@ textarea:focus {
 
 .best-doctors .owl-carousel .owl-nav .owl-next {
 	padding-right: 0px;
+
+	
 }
 
 .best-doctors .owl-carousel .owl-nav .owl-prev span,
@@ -1805,6 +1807,8 @@ textarea:focus {
 	cursor: pointer;
 	width: 46px;
 	height: 46px;
+	
+	
 }
 
 .best-doctors .owl-carousel .owl-nav .owl-prev span:hover,
@@ -1835,7 +1839,7 @@ textarea:focus {
 	font-size: 14px;
 	font-size: 14px;
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 24px;
 	text-decoration: underline;
 }
@@ -1903,7 +1907,7 @@ textarea:focus {
 }
 
 .sbar_color_one .view-doctors {
-	background: #568701
+	background: #c5ae8f
 }
 
 .case-study-inner {
@@ -2016,7 +2020,7 @@ textarea:focus {
 
 .recent-tags .btn-link {
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 	background-color: transparent;
 	border: 0px;
 	box-shadow: none;
@@ -2069,7 +2073,7 @@ textarea:focus {
 }
 
 .recent-tags .btn-link {
-	border-top: 4px solid #568701;
+	border-top: 4px solid #c5ae8f;
 	border-radius: 0px!important;
 	position: relative;
 	z-index: 10;
@@ -2093,7 +2097,7 @@ textarea:focus {
 
 .recent-tags .btn-link .main.active-min {
 	display: block;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .recent-tags .btn-link.collapsed .main.active-min {
@@ -2221,7 +2225,7 @@ textarea:focus {
 .get-in-touch .theme-btn {
 	width: 100%;
 	background: #fff;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 700;
 	margin-top: 10px;
 }
@@ -2657,7 +2661,7 @@ textarea:focus {
 }
 
 .breadcrumb-item.active {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 
@@ -2825,7 +2829,7 @@ textarea:focus {
 
 .contact_address_inner .contact_our_office h2 span {
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .contact_address_inner .contact_our_office p {
@@ -2846,7 +2850,7 @@ textarea:focus {
 
 .contact_get_in_touch h2 span {
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .contact_get_in_touch p {
@@ -2864,7 +2868,7 @@ textarea:focus {
 }
 
 .contact_get_in_touch p a.phne {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 400;
 	font-size: 24px;
 	padding-top: 5px;
@@ -3074,7 +3078,7 @@ textarea {
 .appont_sec_inner a {
 	font-size: 26px;
 	line-height: 32px;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 700;
 	padding-bottom: 10px;
 	display: block;
@@ -3362,7 +3366,7 @@ textarea {
 }
 
 .testimonial_sec.hm-one .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -3476,7 +3480,7 @@ textarea {
 }
 
 .best-doctors.hme-one .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -3485,7 +3489,7 @@ textarea {
 }
 
 .recent-tags.hme-one .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -3502,7 +3506,7 @@ textarea {
 }
 
 .footer-widget ul li a:hover {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .footer.home-one .footer-widget ul li {
@@ -3519,7 +3523,7 @@ textarea {
 }
 
 .footer.home-one .footer-widget ul li a:hover {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .footer.home-one .footer-widget ul {
@@ -3600,11 +3604,11 @@ textarea {
 }
 
 .sbar_color_one .nav-item.dropdown>.navbar-nav {
-	border-top: 3px solid #568701;
+	border-top: 3px solid #c5ae8f;
 }
 
 .sbar_color_three .nav-item.dropdown>.navbar-nav {
-	border-top: 3px solid #568701;
+	border-top: 3px solid #c5ae8f;
 }
 
 .mid_bar {
@@ -6181,7 +6185,7 @@ textarea {
 }
 
 .home-page-one .main-slider h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -6307,7 +6311,7 @@ textarea {
 }
 
 .blog-grid-section .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -6365,13 +6369,13 @@ textarea {
 	font-size: 14px;
 	text-transform: uppercase;
 	line-height: 26px;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 700;
 	transition: .5s ease;
 }
 
 .blog-grid-section .blog-grid-inner:hover h2 a {
-	color: #568701;
+	color: #c5ae8f;
 	cursor: pointer;
 }
 
@@ -6422,7 +6426,7 @@ textarea {
 }
 
 .blog-grid-section .filter-group ul .button.active {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .blog-grid-section .filter-group ul li:first-child {
@@ -6437,7 +6441,7 @@ textarea {
 .blog-grid-section .btn-default:hover {
 	border: none!important;
 	box-shadow: none!important;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 
@@ -6484,12 +6488,12 @@ textarea {
 
 .pagination li:first-child:hover a,
 .pagination li:last-child:hover a {
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff;
 }
 
 .pagination li:hover a {
-	color: #568701;
+	color: #c5ae8f;
 	text-decoration: underline;
 }
 
@@ -6511,7 +6515,7 @@ textarea {
 }
 
 .blog-sidebar-section .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -6614,15 +6618,15 @@ textarea {
 
 .sidebar_md_one .categories ul li:hover a {
 	padding-left: 8px;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .sidebar_md_one .categories ul li:hover::before {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .sidebar_md_one .categories ul li:hover a span {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .popular_posts {
@@ -6663,7 +6667,7 @@ textarea {
 }
 
 .popular_posts .posts_ .post_content h2:hover a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .tag_cloud {
@@ -6685,7 +6689,7 @@ textarea {
 }
 
 .tag_cloud .tags a:hover {
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff;
 }
 
@@ -6740,12 +6744,12 @@ textarea {
 }
 
 .blog_right_single .blog-single-inner .blog-content h2:hover a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .blog_right_single .blog-single-inner .blog-content a.rd-more {
 	font-size: 14px;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 24px;
 	font-weight: 700;
 }
@@ -6862,7 +6866,7 @@ textarea {
 }
 
 .authour_quotes .quotes_inner h6 {
-	color: #568701;
+	color: #c5ae8f;
 	font-size: 18px;
 	line-height: 26px;
 	font-weight: 700;
@@ -6950,11 +6954,11 @@ textarea {
 }
 
 .tage_and_share .tags ul li:hover a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .tage_and_share .share ul li:hover a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .authour_testimonial {
@@ -7011,7 +7015,7 @@ textarea {
 }
 
 .suggesstions h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7092,7 +7096,7 @@ textarea {
 }
 
 .comments h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7130,7 +7134,7 @@ textarea {
 
 .comments .comment_innner .comment_text a {
 	font-size: 14px;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 23px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -7169,7 +7173,7 @@ textarea {
 	padding: 0px 20px;
 	color: #fff;
 	font-weight: 700;
-	background: #568701;
+	background: #c5ae8f;
 	border: 0px;
 	border-radius: 3px;
 	box-shadow: none;
@@ -7183,7 +7187,7 @@ textarea {
 }
 
 .leave_reply h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7228,7 +7232,7 @@ textarea {
 }
 
 .department_gdthre_column .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7284,7 +7288,7 @@ textarea {
 
 .department_gd_inner .dp_content a.read_ {
 	font-size: 14px;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 23px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -7312,7 +7316,7 @@ textarea {
 }
 
 .department_gdfour_column .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7339,7 +7343,7 @@ textarea {
 }
 
 .department_listing .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7409,11 +7413,11 @@ textarea {
 }
 
 .department_listing .department_list_inner:hover .li_dp_content h2 a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .department_listing .department_list_inner:hover .li_dp_content a.read_ {
-	color: #568701;
+	color: #c5ae8f;
 	text-decoration: underline;
 }
 
@@ -7440,7 +7444,7 @@ textarea {
 }
 
 .department_with_icon .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7493,7 +7497,7 @@ textarea {
 	font-size: 20px;
 	line-height: 20px;
 	margin-right: 5px;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .departmet_sidebar_left .department_ ul li a::after {
@@ -7506,7 +7510,7 @@ textarea {
 }
 
 .departmet_sidebar_left .department_ ul li:hover a {
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff;
 }
 
@@ -7515,7 +7519,7 @@ textarea {
 }
 
 .department_with_sidebar .working_hours {
-	background: #568701;
+	background: #c5ae8f;
 	padding: 45px 25px 50px;
 	margin-bottom: 50px;
 	position: relative;
@@ -7544,7 +7548,7 @@ textarea {
 	width: 100%;
 	background: #fff;
 	margin-top: 25px;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7595,7 +7599,7 @@ textarea {
 }
 
 .department_with_sidebar .appointment-btn {
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff;
 }
 
@@ -7677,7 +7681,7 @@ textarea {
 .department_slide_show .owl-nav .owl-prev:hover,
 .department_slide_show .owl-nav .owl-next:hover {
 	color: #ffffff;
-	background-color: #568701;
+	background-color: #c5ae8f;
 }
 
 .department_slide_show .owl-nav span {
@@ -7803,7 +7807,7 @@ textarea {
 }
 
 .head_of_dp h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7866,7 +7870,7 @@ textarea {
 	font-size: 14px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 700;
 	margin-bottom: 30px;
 }
@@ -7878,7 +7882,7 @@ textarea {
 }
 
 .accordion.dep_faq h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -7893,7 +7897,7 @@ textarea {
 
 .accordion.dep_faq .btn-link {
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 	background-color: transparent;
 	border: 0px;
 	box-shadow: none;
@@ -7946,7 +7950,7 @@ textarea {
 }
 
 .accordion.dep_faq .btn-link {
-	border-top: 4px solid #568701;
+	border-top: 4px solid #c5ae8f;
 	border-radius: 0px!important;
 	position: relative;
 	z-index: 10;
@@ -7970,7 +7974,7 @@ textarea {
 
 .accordion.dep_faq .btn-link .main.active-min {
 	display: block;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .accordion.dep_faq .btn-link.collapsed .main.active-min {
@@ -7991,7 +7995,7 @@ textarea {
 }
 
 .dp_case_study .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -8019,7 +8023,7 @@ textarea {
 }
 
 .dp_case_study p a {
-	color: #568701;
+	color: #c5ae8f;
 	text-decoration: underline;
 }
 
@@ -8038,7 +8042,7 @@ textarea {
 }
 
 .dp_case_study .our_case_inner:hover h2 a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .dp_case_study .our_case_inner .image {
@@ -8101,7 +8105,7 @@ textarea {
 }
 
 .case-grid-section .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -8134,7 +8138,7 @@ textarea {
 }
 
 .case-grid-inner:hover h2 a {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .case-grid-inner .image img {
@@ -8186,7 +8190,7 @@ textarea {
 }
 
 .case-grid-section .filter-group ul .button.active {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .case-grid-section .filter-group ul li:first-child {
@@ -8201,7 +8205,7 @@ textarea {
 .case-grid-section .btn-default:hover {
 	border: none!important;
 	box-shadow: none!important;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 
@@ -8247,7 +8251,7 @@ textarea {
 
 .faq_s .btn-link {
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 	background-color: transparent;
 	border: 0px;
 	box-shadow: none;
@@ -8300,7 +8304,7 @@ textarea {
 }
 
 .faq_s .btn-link {
-	border-top: 4px solid #568701;
+	border-top: 4px solid #c5ae8f;
 	border-radius: 0px!important;
 	position: relative;
 	z-index: 10;
@@ -8324,7 +8328,7 @@ textarea {
 
 .faq_s .btn-link .main.active-min {
 	display: block;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .faq_s .btn-link.collapsed .main.active-min {
@@ -8360,7 +8364,7 @@ textarea {
 	color: #fff;
 	padding: 0px 20px;
 	line-height: 45px;
-	background: #568701;
+	background: #c5ae8f;
 	border-radius: 3px;
 	text-transform: uppercase;
 }
@@ -8387,7 +8391,7 @@ textarea {
 }
 
 .before_after_treatment.single_page .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -8460,8 +8464,8 @@ textarea {
 }
 
 .testmonila_single_case .test-content-inner .flaticon-quote {
-	color: #568701;
-	background: #568701;
+	color: #c5ae8f;
+	background: #c5ae8f;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -8477,7 +8481,7 @@ textarea {
 
 .testmonila_single_case .video-holder .flaticon-multimedia {
 	font-size: 60px;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 54px;
 	transition: .5s ease;
 	position: absolute;
@@ -8601,7 +8605,7 @@ textarea {
 .ui-menu .ui-state-focus,
 .ui-menu .ui-state-active {
 	margin: 0px;
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff!important;
 }
 
@@ -8612,7 +8616,7 @@ textarea {
 }
 
 .book_appointment .theme-btn {
-	background: #568701;
+	background: #c5ae8f;
 	min-width: 250px;
 	min-height: 50px;
 	line-height: 50px;
@@ -8664,7 +8668,7 @@ textarea {
 
 .book_appointment h1 span {
 	font-weight: 800;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 
@@ -8681,7 +8685,7 @@ textarea {
 }
 
 .single_doctors .quick_profile {
-	background: #568701;
+	background: #c5ae8f;
 	padding: 45px 25px 50px;
 	margin-bottom: 50px;
 	position: relative;
@@ -8711,7 +8715,7 @@ textarea {
 	width: 100%;
 	background: #fff;
 	margin-top: 25px;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -8762,7 +8766,7 @@ textarea {
 }
 
 .single_doctors .appointment-btn {
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff;
 }
 
@@ -8774,7 +8778,7 @@ textarea {
 
 .single_doctors .single_doctor_right .heading h1 span {
 	font-weight: 800;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .single_doctors .single_doctor_right .contact_social_media ul li:last-child {
@@ -8909,7 +8913,7 @@ textarea {
 
 .single_doctors .dp_case_study .owl-dots .owl-dot:hover,
 .single_doctors .dp_case_study .owl-dots .owl-dot.active {
-	background-color: #568701;
+	background-color: #c5ae8f;
 	width: 14px;
 	height: 14px;
 }
@@ -8938,7 +8942,7 @@ textarea {
 .time_table .btn-primary {
 	position: relative;
 	margin-bottom: 50px;
-	background: #568701!important;
+	background: #c5ae8f!important;
 	color: #fff!important;
 	display: inline-block;
 	border: 0px;
@@ -9007,7 +9011,7 @@ textarea {
 .time_table .table-bordered td span {
 	transition: .5s ease;
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 	margin-bottom: 20px;
 	display: inline-block;
 }
@@ -9018,7 +9022,7 @@ textarea {
 }
 
 .time_table .table-bordered td:hover {
-	background: #568701;
+	background: #c5ae8f;
 	color: #fff!important
 }
 
@@ -9162,15 +9166,15 @@ textarea {
 
 .shop_left_bar .categories ul li:hover a {
 	padding-left: 8px;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .shop_left_bar .categories ul li:hover::before {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .shop_left_bar .categories ul li:hover a span {
-	color: #568701;
+	color: #c5ae8f;
 }
 
 
@@ -9188,11 +9192,11 @@ textarea {
 }
 
 .shop_ .widget_price_filter .price_slider .ui-slider-range {
-	background-color: #568701;
+	background-color: #c5ae8f;
 }
 
 .shop_ .widget_price_filter .price_slider .ui-slider-handle {
-	background-color: #568701;
+	background-color: #c5ae8f;
 	width: 18px;
 	height: 18px;
 	border-radius: 50px;
@@ -9264,7 +9268,7 @@ textarea {
 .widget_view_products .product_inner .view_text p {
 	font-size: 16px;
 	line-height: 24px;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 400;
 }
 
@@ -9346,7 +9350,7 @@ textarea {
 .porduct_des p {
 	font-size: 16px;
 	line-height: 24px;
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 400;
 }
 
@@ -9369,7 +9373,7 @@ textarea {
 
 .shop_right_bar .shop_products_outer .image .overlay_cart span {
 	display: block;
-	background: #568701;
+	background: #c5ae8f;
 	width: 50px;
 	height: 50px;
 	border-radius: 3px;
@@ -9439,7 +9443,7 @@ textarea {
 
 .shop_cart_ table tbody td span {
 	font-size: 18px;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .shop_cart_ table td.proname {
@@ -9499,7 +9503,7 @@ textarea {
 }
 
 .shop_cart_ .continue_shopping button {
-	background: #568701;
+	background: #c5ae8f;
 	text-transform: uppercase;
 	min-width: 211px;
 }
@@ -9581,7 +9585,7 @@ textarea {
 
 .shop_cart_ .sub_total .top li:last-child {
 	float: right;
-	color: #568701;
+	color: #c5ae8f;
 	font-size: 24px;
 }
 
@@ -9660,7 +9664,7 @@ textarea {
 
 .shop_cart_ .total ul li:last-child {
 	text-align: right;
-	color: #568701;
+	color: #c5ae8f;
 	font-size: 24px;
 }
 
@@ -9670,7 +9674,7 @@ textarea {
 
 .proceed_to_checkout button {
 	width: 100%;
-	background: #568701;
+	background: #c5ae8f;
 	text-transform: uppercase;
 }
 
@@ -9687,7 +9691,7 @@ textarea {
 	font-size: 20px;
 	display: inline-block;
 	content: '\f105'!important;
-	color: #568701;
+	color: #c5ae8f;
 	text-shadow: none;
 }
 
@@ -9719,7 +9723,7 @@ textarea {
 	font-size: 20px;
 	display: inline-block;
 	content: '\f104'!important;
-	color: #568701;
+	color: #c5ae8f;
 	text-shadow: none;
 }
 
@@ -9749,7 +9753,7 @@ textarea {
 
 
 .product_details_outer .addbtnct .theme-btn {
-	background: #568701;
+	background: #c5ae8f;
 }
 
 .product_detail_right .rating {
@@ -9779,7 +9783,7 @@ textarea {
 
 .product_detail_right .product_price {
 	font-weight: 700;
-	color: #568701;
+	color: #c5ae8f;
 	line-height: 30px;
 	font-size: 24px;
 	margin-bottom: 20px;
@@ -9794,7 +9798,7 @@ textarea {
 }
 
 .product_detail_right h5 .flaticon-correct {
-	color: #568701;
+	color: #c5ae8f;
 	margin-right: 5px;
 }
 
@@ -9839,7 +9843,7 @@ textarea {
 .product_details_outer .nav-tabs .nav-item.show .nav-link,
 .product_details_outer .nav-tabs .nav-link.active {
 	background: transparent;
-	color: #568701;
+	color: #c5ae8f;
 }
 
 .product_details_outer .nav-tabs .nav-item {
@@ -9936,7 +9940,7 @@ textarea {
 }
 
 .product_details_outer .products_caro .heading h1 span {
-	color: #568701;
+	color: #c5ae8f;
 	font-weight: 800;
 }
 
@@ -9976,7 +9980,7 @@ textarea {
 
 .product_details_outer .shop_products_outer .image .overlay_cart span {
 	display: block;
-	background: #568701;
+	background: #c5ae8f;
 	width: 50px;
 	height: 50px;
 	border-radius: 3px;
@@ -10137,7 +10141,7 @@ textarea {
 
 .your_order_details .total ul li:last-child {
 	float: right;
-	color: #568701;
+	color: #c5ae8f;
 	font-size: 24px;
 	line-height: 30px;
 }
@@ -10184,7 +10188,7 @@ textarea {
 
 
 /*--.home-page-one .main-slider .theme-btn:hover{ background: #000000; color: #fff;}
-.home-page-one .main-slider .theme-btn.btn-dark:hover{ background: #568701; color: #fff;}--*/
+.home-page-one .main-slider .theme-btn.btn-dark:hover{ background: #c5ae8f; color: #fff;}--*/
 
 .sbar_color_one .theme-btn:hover {
 	background: #2b2b2b;
@@ -10197,7 +10201,7 @@ textarea {
 }
 
 .sbar_color_one .mak_appointment a:hover {
-	color: #568701
+	color: #c5ae8f
 }
 
 .sbar_color_two .theme-btn:hover {
@@ -10238,14 +10242,15 @@ textarea {
 
 .ui-datepicker .ui-datepicker-header{ padding: 0px; }
 .ui-widget.ui-widget-content{ border: 0px; background: #fff;}
-.ui-widget-header{background: #568701; border-radius: 3px ; border: 0px; padding: 6px 10px;}
+.ui-widget-header{background: #c5ae8f; border-radius: 3px ; border: 0px; padding: 6px 10px;}
 .ui-state-hover.ui-datepicker-next-hover{ background: transparent!important; border: 0px; top: 2px;}
 .ui-datepicker .ui-datepicker-title{ padding: 6px 10px; color: #fff; font-weight: 700; font-family: 'Nunito Sans', sans-serif; line-height: 30px; }
 .ui-datepicker th{ font-size: 14px; font-weight: 700; font-family: 'Nunito Sans', sans-serif; line-height: 30px; }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover,
  html .ui-button.ui-state-disabled:active{ border: 0px; background: #fff; text-align: center; border-radius: 3px;}
 .ui-state-hover.ui-datepicker-prev-hover{ background: transparent!important;border: 0px; top: 2px;}
-.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{ color: #fff; background: #568701;}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{ color: #fff; background: #
+	;}
 .ui-datepicker .ui-datepicker-prev-hover {
 	left:2px;
 }
